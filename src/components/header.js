@@ -13,6 +13,9 @@ const Header = ({ siteTitle }) => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center'
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -26,6 +29,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h2 style={{ margin: 0, color: 'white' }}>
+        NYC-Based Full Stack JS Developer
+      </h2>
     </div>
   </div>
 )
