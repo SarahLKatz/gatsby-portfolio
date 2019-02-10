@@ -1,4 +1,8 @@
 import React from 'react'
+import github from '../images/github.png'
+import linkedin from '../images/linkedin.png'
+import twitter from '../images/twitter.png'
+import medium from '../images/medium.png'
 
 const Social = () => (
   <div
@@ -15,16 +19,16 @@ const Social = () => (
       }}
     >
       <a href='https://github.com/sarahlkatz'>
-        <img src='../../static/img/github.png' alt='github @sarahlkatz' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
+        <img src={github} alt='github @sarahlkatz' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
       </a>
       <a href='https://linkedin.com/in/sarahlkatz'>
-        <img src='../../static/img/linkedin.png' alt='linkedin @sarahlkatz' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
+        <img src={linkedin} alt='linkedin @sarahlkatz' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
       </a>
       <a href='https://twitter.com/sarahscode'>
-        <img src='../../static/img/twitter.png' alt='twitter @sarahscode' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
+        <img src={twitter} alt='twitter @sarahscode' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
       </a>
       <a href='https://medium.com/@sarahscode'>
-        <img src='../../static/img/medium.png' alt='medium @sarahscode' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
+        <img src={medium} alt='medium @sarahscode' style={{width: '2vw', height: '2vw', margin: '1vw'}}/>
       </a>
     </div>
   </div>
