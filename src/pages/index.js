@@ -74,10 +74,7 @@ const IndexPage = () => (
             padding: '50px',
           }}
         >
-          <a
-            href="https://medium.com/@sarahscode"
-            style={{ textDecoration: 'none' }}
-          >
+          <Link to="/blog" style={{ textDecoration: 'none' }}>
             <h3
               style={{
                 color: 'black',
@@ -86,7 +83,7 @@ const IndexPage = () => (
             >
               BLOG
             </h3>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
