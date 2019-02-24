@@ -1,7 +1,8 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 const ResumePage = () => (
-  <div>
+  <Layout>
     <div>
       <h3>Work History</h3>
       <div>
@@ -43,7 +44,7 @@ const ResumePage = () => (
         <h6 style={{margin: '0px', marginBottom: '2vh'}}>BA, Biology ~ August 2004 - May 2008</h6> {/* SPACING! */}
       </div>
     </div>
-  </div>
+  </Layout>
 )
 
 export default ResumePage

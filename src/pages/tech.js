@@ -1,7 +1,8 @@
 import React from 'react'
+import Layout from '../components/layout'
 
 const TechStack = () => (
-  <div>
+  <Layout>
     <div>
       <h3>I Can Work With...</h3> 
       <ul style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
@@ -29,7 +30,7 @@ const TechStack = () => (
         <li style={{listStyle: "none", width: "23%"}}>GraphQL</li>
       </ul>
     </div>
-  </div>
+  </Layout>
 )
 
 export default TechStack
