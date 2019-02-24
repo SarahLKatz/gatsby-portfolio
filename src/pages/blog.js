@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import '../styles/blog.css'
 
 const Blog = ({ data }) => {
   return (
@@ -8,11 +9,14 @@ const Blog = ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.frontmatter.path}>
-            <h3>
-              {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
+            <h3 className="postTitle">
+              {node.frontmatter.title}
             </h3>
           </Link>
-          <p>{node.excerpt}</p>
+          <div>
+            <span className="postData">{node.frontmatter.date} — {node.timeToRead} minute read</span>
+            <p>{node.excerpt}</p>
+           </div>
         </div>
       ))}
       <h5>
@@ -35,6 +39,7 @@ export const query = graphql`
       edges {
         node {
           id
+          timeToRead
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")

@@ -31,11 +31,9 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
-    console.log('all!', posts[0].node)
     posts.forEach(({ node }, idx) => {
       const prevPath = (idx > 0) ? posts[idx-1].node.frontmatter.path : ''
       const nextPath = (idx < posts.length-1) ? posts[idx+1].node.frontmatter.path : ''
-      console.log(node.frontmatter.path)
       createPage({
         path: node.frontmatter.path,
         component: path.resolve(`./src/templates/blog-post.js`),

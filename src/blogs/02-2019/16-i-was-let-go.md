@@ -1,5 +1,5 @@
 ---
-path: "/blogs/02-2019-i-was-let-go"
+path: "/blogs/02-16-2019-i-was-let-go"
 title: "I Was Let Go — And I’m Okay With It"
 date: "2019-02-16"
 ---
@@ -15,3 +15,5 @@ As far as “firings” go, this wasn’t a bad one. It was made clear to me tha
 When I first took this job, I wasn’t in love with it, but I wanted to be working and I thought it would grow into a job I loved. Now I know better. I’m fortunate enough to be in a position where I can take some time to find the right job, so I’m going to do just that. If I’m offered a job that I don’t think I will love, I know now that it’s okay to say no. If I’m not excited about the job before I get there, I’m not going to love it once I’m there. So I want to take the time to find the right job, not just a job. I want a job where I can work to solve problems, where I can actually see the impact of my work, and where I can constantly learn and grow. Somewhere where I can see the difference I’m making for my company … even if that difference is something as simple as saving someone else 2 hours in their development process.
 
 Job searching is going to be a tough process. It always is. But I’m optimistic for the future and looking forward to finding out what opportunities are out there for me.
+
+[See Original Post on Medium](https://medium.com/@sarahscode/i-was-let-go-and-im-okay-with-it-51376aa72b5a)

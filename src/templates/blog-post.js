@@ -8,9 +8,9 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <div>
-        <h3>From the mind of Sarah Katz...</h3>
-        <h1>{post.frontmatter.title}</h1>
-        <h4>{post.frontmatter.date}</h4>
+        <h3>From the mind of Sarah...</h3>
+        <h1 className="postTitle">{post.frontmatter.title}</h1>
+        <h4 className="postData">{post.frontmatter.date}</h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div
           className="postNav"
