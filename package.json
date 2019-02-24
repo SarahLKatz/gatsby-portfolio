@@ -1,12 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-portfolio",
+  "description": "Sarah's Portfolio Site",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sarah Katz <soshasarah@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.279",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby": "^2.0.0",
+    "gatsby-link": "^2.0.11",
+    "gatsby-plugin-catch-links": "^2.0.11",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-source-filesystem": "^2.0.21",
+    "gatsby-transformer-remark": "^2.2.5",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -25,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/SarahLKatz/gatsby-portfolio"
   }
 }
