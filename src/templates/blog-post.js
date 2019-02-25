@@ -21,7 +21,7 @@ export default ({ data, pageContext }) => {
           ) : (
             <div />
           )}
-          <Link to='/blog'>Post List</Link>
+          <Link to="/blog">Post List</Link>
           {pageContext.nextPath ? (
             <Link to={pageContext.nextPath}>Next Post</Link>
           ) : (
