@@ -8,16 +8,12 @@ const ResumePage = () => (
     <div>
       <h3>Work History</h3>
       <div>
-        <h5 className="itemTitle">
-          Techolution ~ Fullstack UI Developer
-        </h5>
-        <h6 className="itemDates">
-          New York, NY ~ February 2018 - Present
-        </h6>
+        <h5 className="itemTitle">Techolution ~ Fullstack UI Developer</h5>
+        <h6 className="itemDates">New York, NY ~ February 2018 - Present</h6>
         <p className="itemContent">
           100% onsite position at a client (fashion retail and ecommerce brand),
-          creating automated testing and working on front end
-          feature development and bug fixes.
+          creating automated testing and working on front end feature
+          development and bug fixes.
         </p>
       </div>
       <div>
