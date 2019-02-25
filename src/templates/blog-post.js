@@ -14,7 +14,6 @@ export default ({ data, pageContext }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div
           className="postNav"
-          style={{ display: 'flex', justifyContent: 'space-between' }}
         >
           {pageContext.prevPath ? (
             <Link to={pageContext.prevPath}>Previous Post</Link>
