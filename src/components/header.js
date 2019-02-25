@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h2 className="noMargin white">NYC-Based Full Stack JS Developer</h2>
+      <h2 className="noMargin white subtitle">NYC-Based Full Stack JS Developer</h2>
     </div>
   </div>
 )
