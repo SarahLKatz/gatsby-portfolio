@@ -9,14 +9,14 @@ const Blog = ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Link to={node.frontmatter.path}>
-            <h3 className="postTitle">
-              {node.frontmatter.title}
-            </h3>
+            <h3 className="postTitle">{node.frontmatter.title}</h3>
           </Link>
           <div>
-            <span className="postData">{node.frontmatter.date} — {node.timeToRead} minute read</span>
+            <span className="postData">
+              {node.frontmatter.date} — {node.timeToRead} minute read
+            </span>
             <p>{node.excerpt}</p>
-           </div>
+          </div>
         </div>
       ))}
       <h5>
