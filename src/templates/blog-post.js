@@ -12,16 +12,13 @@ export default ({ data, pageContext }) => {
         <h1 className="postTitle">{post.frontmatter.title}</h1>
         <h4 className="postData">{post.frontmatter.date}</h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <div
-          className="postNav"
-          style={{ display: 'flex', justifyContent: 'space-between' }}
-        >
+        <div className="postNav">
           {pageContext.prevPath ? (
             <Link to={pageContext.prevPath}>Previous Post</Link>
           ) : (
             <div />
           )}
-          <Link to='/blog'>Post List</Link>
+          <Link to="/blog">Post List</Link>
           {pageContext.nextPath ? (
             <Link to={pageContext.nextPath}>Next Post</Link>
           ) : (

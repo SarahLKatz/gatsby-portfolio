@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none; 
+  width: 45%;
+}
+
+@media only screen and (min-width: 480px) {
+  li {
+    width: 23%;
+  }
+}
