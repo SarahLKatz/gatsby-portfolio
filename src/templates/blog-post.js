@@ -40,8 +40,4 @@ export const query = graphql`
       }
     }
   }
-<<<<<<< HEAD
 `
-=======
-`
->>>>>>> deploy
