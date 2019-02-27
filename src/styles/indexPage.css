@@ -3,7 +3,7 @@
 }
 
 .pageContainer {
-  flex: 1;
+  width: 90vw;
 }
 
 .pageLink {
