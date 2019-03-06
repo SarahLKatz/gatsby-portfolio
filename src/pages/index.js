@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
 const IndexPage = ({data}) => {
-  const {resume, tech, blog} = data
+  const {resume, tech, projects, blog} = data
   return (
     <Layout>
       <div className="container">
@@ -32,6 +32,19 @@ const IndexPage = ({data}) => {
           >
             <Link to="/tech">
               <h3>TECH STACK</h3>
+            </Link>
+          </div>
+        </div>
+        <div className="pageContainer">
+          <div
+            className="pageLink mute"
+            style={{
+              backgroundImage: `url(${projects.childImageSharp.fluid.src})`,
+              backgroundPosition: '350px',
+            }}
+          >
+            <Link to="/projects">
+              <h3>PROJECTS</h3>
             </Link>
           </div>
         </div>
@@ -65,6 +78,13 @@ export const query = graphql`
       }
     }
     tech: file(relativePath: { eq: "techstack.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    projects: file(relativePath: { eq: "projects.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
