@@ -1,0 +1,12 @@
+{
+  "name": "WDW Timeline",
+  "image": "wdwtimeline.jpg",
+  "date": "February - March 2017",
+  "at": "General Assembly",
+  "description" : "An interactive timeline of events at Walt Disney World. Built using Bootstrap and jQuery, users can filter events based on categories (such as theme park) by clicking buttons at the top of the page and toggle descriptions of events by clicking on the event name.",
+  "github": "https://github.com/SarahLKatz/SarahLKatz.github.io",
+  "live" : "http://sarahlkatz.github.io",
+  "demo": "",
+  "tech" : "HTML, CSS, Bootstrap, jQuery",
+  "sort": "2017-3"
+}
