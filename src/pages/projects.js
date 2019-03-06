@@ -1,14 +1,43 @@
 import React from 'react'
-import Layout from '../components/layout'
+import { graphql } from 'gatsby'
 
-const Projects = () => (
-  <Layout>
-    <div>JDASH</div>
-    <div>Website Redesign</div>
-    <div>Viewtrition</div>
-    <div>Pics Or You Didn't Medal</div>
-    <div>WDW Timeline</div>
-  </Layout>
-)
+import Layout from '../components/layout'
+import Project from '../components/project'
+import '../styles/projects.css'
+
+const Projects = ({data}) => {
+  return (
+    <Layout>
+      {
+        data.allProjectsJson.edges.map(edge => (
+          <Project projectData={edge.node} />)
+        )
+      }
+    </Layout>
+  )
+}
 
 export default Projects
+
+export const query = graphql`
+  query {
+    allProjectsJson(sort: {
+      fields: [sort]
+      order: DESC
+    }) {
+      edges {
+        node {
+          name
+          image
+          date
+          at
+          description
+          github
+          live
+          demo
+          tech
+        }
+      }
+    }
+  }
+`
