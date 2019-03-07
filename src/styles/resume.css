@@ -2,6 +2,11 @@ h3 {
   margin: 3vh 0;
 }
 
+a {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
 .itemTitle {
   color: darkblue;
   margin-bottom: 1vh;
