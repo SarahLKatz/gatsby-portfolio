@@ -1,9 +1,11 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import Layout from '../components/layout'
 
 import '../styles/resume.css'
 
-const ResumePage = () => (
+const ResumePage = ({data}) => (
   <Layout>
     <div>
       <h3>Work History</h3>
@@ -74,7 +76,17 @@ const ResumePage = () => (
         </h6>
       </div>
     </div>
+    <a href={data.file.publicURL} className="itemTitle">Downloadable Resume</a>
   </Layout>
 )
 
 export default ResumePage
+
+export const query = graphql`
+  {
+    file(relativePath: { eq: "Sarah-Katz-Resume.pdf" }) {
+      publicURL
+    }
+  }
+`
+
