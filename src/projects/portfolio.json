@@ -1,0 +1,12 @@
+{
+  "name": "Personal Portfolio",
+  "image": "portfolio.jpg",
+  "date": "January-March 2018",
+  "at": "",
+  "description" : "A complete redesign (from scratch) of my personal portfolio site.",
+  "github": "https://github.com/SarahLKatz/gatsby-portfolio",
+  "live" : "https://www.sarahlkatz.com",
+  "demo": "",
+  "tech" : "Gatsby, React, GraphQL, Markdown",
+  "sort": "2019-3"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Viewtrition",
+  "image": "viewtrition.jpg",
+  "date": "November-December 2017",
+  "at": "Fullstack Academy",
+  "description" : "This iOS app, built as a capstone project while at Fullstack Academy, allows users to take a picture of food, and, after confirming the contents of the picture, returns nutritional information about the meal in easy-to-understand charts.",
+  "github": "https://github.com/lulusaga-corp/notHotDog",
+  "live" : "https://expo.io/@kapicaluk/viewtrition",
+  "demo": "https://youtu.be/w72mSp2WKW0",
+  "tech" : "React Native, Redux, React-Redux, Firebase Auth, Cloud Firestore, Expo, Victory Charts, Clarifai API, Nutritionix API",
+  "sort": "2017-12"
+}
