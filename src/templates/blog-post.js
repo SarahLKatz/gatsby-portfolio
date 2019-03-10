@@ -1,10 +1,17 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import { DiscussionEmbed } from "disqus-react"
+
 import Layout from '../components/layout'
 import '../styles/blog.css'
 
 export default ({ data, pageContext }) => {
   const post = data.markdownRemark
+  const disqusShortname = "sarahlkatz"
+  const disqusConfig = {
+    identifier: post.id,
+    title: post.frontmatter.title,
+  }
   return (
     <Layout>
       <div>
@@ -26,6 +33,7 @@ export default ({ data, pageContext }) => {
           )}
         </div>
       </div>
+      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )
 }
