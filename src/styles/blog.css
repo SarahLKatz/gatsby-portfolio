@@ -2,6 +2,22 @@ a {
   text-decoration: none;
 }
 
+.rssFeed {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rssFeed a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rssFeed .socialImage {
+  margin: 0px;
+}
+
+
 .postTitle {
   margin-bottom: 0.25rem;
   margin-left: 1px;
