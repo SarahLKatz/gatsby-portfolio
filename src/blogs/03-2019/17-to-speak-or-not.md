@@ -15,8 +15,8 @@ I could blog about it (since I blog about everything else anyway), but there are
 Honestly? I'm completely torn. I started filling out the form to submit a CFP for the CodeNewbies Codeland conference (it's a very beginner-friendly community ... and the conference is local, so if it goes badly, I can just hop on a subway and then be crying in bed less than an hour later), but then I chickened out.
 I've also been thinking about maybe doing something on a smaller scale, like giving a short talk at a local meetup, but I don't even know where to start with that. There are so many meetups out there - how do I decide which one to speak at? How do I go about setting it up? Are meetups friendly to new speakers who will be extremely nervous?
 
-When it comes to blogging, I mostly know what I'm doing. I don't need to find the right place to share my thoughts because I already have multiple ways of sharing my blogs wit my network.
-But when it comes to public speaking, I'm at a complete loss. I don't know what the right environment is for my speech, where I would be welcomed, or even how long I would want to speak for.
+When it comes to blogging, I mostly know what I'm doing. I don't need to find the right place to share my thoughts because I already have multiple ways of sharing my blogs with my network.
+But when it comes to public speaking, I'm at a complete loss. I don't know what the right environment is for my speech, where I would be welcomed, or even how long I would want to speak for. Or if I can even get through the speexh with no major anxiety issues.
 Really, I'm not even sure if I really want to speak about my blog experience or if this is just a passing idea.
 
 Please feel free to share any tips, suggestions, etc and reach out to me if you have a meetup/conference in the NYC area where you think my speaking would be welcomed! And definitely share first-time public speaking experiences with me in the comments - I'm excited to read all about everyone else's speaking experience!
