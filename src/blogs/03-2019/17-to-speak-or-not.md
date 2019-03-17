@@ -1,6 +1,6 @@
 ---
 path: "/blogs/03-17-2019-to-speak-or-not"
-draft: true
+draft: false
 title: "To Speak or Not To Speak"
 date: "2019-03-17"
 ---
