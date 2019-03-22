@@ -1,6 +1,6 @@
 ---
 path: "/blogs/03-24-2019-you-get-what-you-give"
-draft: true
+draft: false
 title: "Put Yourself Out There: Get Something Back"
 date: "2019-03-24"
 ---
