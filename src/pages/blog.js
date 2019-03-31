@@ -11,7 +11,8 @@ const Blog = ({ data }) => {
       <div className="rssFeed">
         <h3>From the mind of Sarah...</h3>
         <Link to="rss.xml">
-          <span>RSS Feed:&nbsp;</span><img src={rss} alt="blog rss subscription" className="socialImage" />
+          <span>RSS Feed:&nbsp;</span>
+          <img src={rss} alt="blog rss subscription" className="socialImage" />
         </Link>
       </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
@@ -42,7 +43,10 @@ const Blog = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
       totalCount
       edges {
         node {
