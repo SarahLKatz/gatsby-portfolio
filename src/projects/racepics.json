@@ -8,5 +8,5 @@
   "live" : "http://racemedalpics.herokuapp.com/",
   "demo": "https://youtu.be/9ECIo97spzI",
   "tech" : "React, Redux, React-Redux, Flickr API, Nominatim API, Strava API, Passport, OAuth",
-  "sort": "2018-11"
+  "sort": "2017-11"
 }
