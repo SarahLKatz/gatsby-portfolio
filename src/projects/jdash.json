@@ -1,12 +1,12 @@
 {
   "name": "JDASH/ATE",
   "image": "",
-  "date": "June 2017-Febuary 2018",
+  "date": "February 2018-Febuary 2019",
   "at": "Techolution/J.Crew",
   "description" : "An internal dashboard that runs a suite of automated tests in a Docker container and generates a customized HTML report that includes screenshots and steps to reproduce failed tests",
   "github": "",
   "live" : "",
   "demo": "",
   "tech" : "React, Redux, Selenium Webdriver, Jest, HTML, CSS, Node.js",
-  "sort": "2019-2"
+  "sort": "2019-02"
 }
