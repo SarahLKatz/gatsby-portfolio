@@ -1,0 +1,24 @@
+---
+path: "/blogs/04-21-2019-comfortable-being-uncomfortable"
+draft: false
+title: "Getting Comfortable With Being Uncomfortable"
+date: "2019-04-21"
+---
+
+![Circle with comfort zone and separate circle with where the magic happens](https://live.staticflickr.com/65535/46921329864_aff0643f81_b.jpg)
+
+I've seen this image in many different contexts, and it's always relevant. As nice as it is to be comfortable and stay in your comfort zone, to truly grow as a person, you need to step outside your comfort zone. Stepping outside your comfort zone allows you to learn new things, expand your skill set, and helps you be better at adapting to change. It's uncomfortable, but it's so important, especially in a field like software development, where technologies are constantly changing.
+
+Which is why I'm trying to focus on getting comfortable with being uncomfortable. For me, this means starting to do things that are outside my comfort zone. Here are some examples of that:
+
+* Practicing skills that I don't feel 100% comfortable with. Last week I spent some time on whiteboarding ([more on that here](https://www.sarahlkatz.com/blogs/04-14-2019-off-track-whiteboard)). This week I spent some time trying to learn a little Ruby, since I've seen some job listings that mention that they use Ruby on the backend, and I'd like to at least be familiar with the syntax. Next week I'm planning to write some SQL queries, since a recent interview experience showed me that I don't remember SQL as well as I thought I did. I will never run out of skills that I'm not 100% comfortable with, which means that I will always have opportunities to step outside my comfort zone.
+
+* Going into my job search, I wasn't sure exactly what I was looking for in a job (after my last job, I had more of a sense of what I didn't want, but hadn't been exposed to enough things I liked to have a good sense of what I did want), but as I've been going through the process, I've gotten a better sense of what I want. And one of the things I want is a job where I can constantly be learning new things. When I read job descriptions, I look for ones that specifically mention opportunities to learn (and teach). Learning something new is always a little uncomfortable, but it's very important for advancing myself and my career and becoming a better developer (and person).
+
+* I'm trying to be okay with not being the perfect candidate when applying to jobs. Job descriptions and companies often have listings of skills and tech knowledge that they want candidates to have. When I first started applying, I tried to focus on jobs that listed skills that I already have. But as I've decided to focus more on jobs where I can learn new things, I'm letting myself apply to jobs where I might not know all of the tech they use, but I'm interested in learning it. It's definitely uncomfortable to be in an interview and say "I haven't used *whatever tech*, but I'm excited to learn it" ... but if I can get comfortable doing that, I'll be in a really good place when looking for my next job.
+
+* Recently I've starting to try getting involved in something that scares me. When I first graduated from coding bootcamp, I tried to attend as many tech meetups as I could, but situations like that get very overwhelming for me. When a few fellow alum of my coding bootcamp started talking about organizing a new meetup, I decided to get involved to see if I could help make it an open and welcoming environment. This was very far outside my comfort zone because it meant being in a room with a bunch of people I didn't know and getting involved in events that have previously made me uncomfortable, but I know that being involved in organizing this meetup will not only help me with my networking skills, but will help create a safe environment for all of our meetup attendees.
+
+One warning: there is such thing as too much time outside your comfort zone. Where that line is depends on the person, and you have to find your own limit. For me, that means spending most of my time in familiar environments (when I can, I tend to spend most of my time in my apartment on my laptop), taking a few hours every day to do something very low-key (like watching TV or reading), and preparing myself as much as I can for potentially uncomfortable situations.
+
+It's also important to remember to ease into the discomfort. If you try to go from only doing things that are comfortable to spending 95% of your time outside your comfort zone overnight, it's going to be almost impossible. You won't know how to handle it. Ease into it. Slowly start taking yourself out of your comfort zone. Add one or two things a week that are uncomfortable (or whatever easy pace works for you). Remind yourself that some days it's a struggle to stay outside your comfort zone, but the more you do it, the more comfortable you will be.
