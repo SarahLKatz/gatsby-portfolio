@@ -13,7 +13,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 const path = require('path')
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
   return graphql(`
     {
       allMarkdownRemark(limit: 1000) {
@@ -24,6 +24,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
             frontmatter {
               path
+              date
             }
           }
         }
@@ -32,6 +33,12 @@ exports.createPages = ({ graphql, actions }) => {
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
     posts.forEach(({ node }, idx) => {
+      createRedirect({ 
+        fromPath: `/b/${node.frontmatter.date}`,
+        toPath: node.frontmatter.path,
+        isPermanent: true,
+        redirectInBrowser: true 
+      })
       const prevPath = (idx > 0) ? posts[idx-1].node.frontmatter.path : ''
       const nextPath = (idx < posts.length-1) ? posts[idx+1].node.frontmatter.path : ''
       createPage({
