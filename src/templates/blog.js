@@ -5,7 +5,8 @@ import rss from '../images/rss.svg'
 
 import '../styles/blog.css'
 
-const Blog = ({ data }) => {
+const Blog = ({data, pageContext}) => {
+  const { numPages, currentPage } = pageContext
   return (
     <Layout>
       <div className="rssFeed">
@@ -28,7 +29,7 @@ const Blog = ({ data }) => {
           </div>
         </div>
       ))}
-      <h5>
+      {numPages === currentPage && <h5>
         Older blog posts can be found on&nbsp;
         <a
           href="https://medium.com/@sarahscode"
@@ -36,16 +37,30 @@ const Blog = ({ data }) => {
         >
           Medium
         </a>
-      </h5>
+      </h5>}
+      <div className="postNav">
+        {currentPage > 1 ? (
+          <Link to={`/blog/${currentPage-1}`}>Previous Page</Link>
+        ) : (
+          <div />
+        )}
+        {currentPage < numPages ? (
+          <Link to={`/blog/${currentPage+1}`}>Next Page</Link>
+        ) : (
+          <div />
+        )}
+      </div>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query {
+  query($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }
+      limit: $limit
+      skip: $skip
     ) {
       totalCount
       edges {
