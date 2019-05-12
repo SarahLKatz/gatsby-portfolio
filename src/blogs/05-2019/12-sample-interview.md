@@ -64,7 +64,7 @@ About a week and a half later (which was within the range I was originally given
 The interviewer shared some information about the company before asking some questions about my experience and interests. I was then asked some questions testing my knowledge of JavaScript principles, followed by a code challenge testing my React and Redux knowledge.
 
 **The Third Interview: More Code**  
-For two weeks, I didn't hear back from the company. I told myself that I was going to wait one more day and then email the person I had originally spoken with just to get confirmation that I wasn't moving on in the process. And then ... I got an email asking if I was interested in the position and another video interview. I confirmed that I was, and we scheduled the second video for a few days later.
+For two weeks, I didn't hear back from the company. I told myself that I was going to wait one more day and then email the person I had originally spoken with just to get confirmation that I wasn't moving on in the process. And then ... I got an email asking if I was interested in the position and another video interview. I confirmed that I was, and we scheduled the second video interview for a few days later.
 
 This interview was another coding challenge - this one involving vanilla JavaScript and some logical thinking. With a little help from my interviewers, I was able to optimize my code and make it more readable.
 
@@ -75,7 +75,7 @@ Shortly after the second video interview, I received an email inviting me to sch
 
 The onsite interview consisted of four sets of interviews.
 
-The first interview was with three non-engineer members of the tech team. We talked about my background and I had the opportunity to ask some questions and learn more about the company.
+The first interview was with three non-engineer members of the tech team (a PM and two designers - so people who work closely with the engineers, but are not themselves engineers). We talked about my background and I had the opportunity to ask some questions and learn more about the company.
 
 The second interview was with two engineers (one QA, one software), and it was fairly similar to the first one - talking about my background and then about the company.
 
@@ -102,5 +102,6 @@ A little less than a week after my onsite, I received an email from the company.
 ### Final Thoughts
 These two processes were definitely somewhat different - and felt very different, but they shared some similarities. Both interviews (as well as all of the other interviews I've been through during this process) were multi-step interviews. Both interviews had some technical and some behavioral questions. Both onsite interviews took an entire afternoon. Both companies were kind and friendly and seemed to really want me to succeed. Both companies expected me to ask a lot of questions.
 
-One of the things I've learned as I go through the job search process is that while no two interviews are the same, there are common ways to prepare. Understand that it may be a long process, and there will be multiple stages. Expect to be asked technical questions, and expect to have to write some code (on a computer, on a whiteboard, or both). Expect any onsite interviews to take at least half a day. Expect the company to expect you to ask a lot of questions. Expect it to be a long and tiring process.
-But also expect them to want you to do well. In all of my interview experience, I have yet to encounter a company that seemed to want me to fail. Those companies may be out there, but I think they are few and far between.
+One of the things I've learned as I go through the job search process is that while no two interviews are the same, there are common ways to prepare. Understand that it may be a long process, and there will be multiple stages. Expect to be asked technical questions, and expect to have to write some code (on a computer, on a whiteboard, or both). Expect any onsite interviews to take at least half a day. Expect the company to expect you to ask a lot of questions. Expect it to be a long and tiring process. But also expect them to want you to do well. In all of my interview experience, I have yet to encounter a company that seemed to want me to fail. Those companies may be out there, but I think they are few and far between.
+
+Every interview is different, and you never know what the process is like until you go through it. But if you go in well prepared and with a positive attitude, you can make the best of any interview and hopefully land a great job!
