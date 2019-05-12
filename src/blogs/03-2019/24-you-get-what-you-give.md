@@ -5,7 +5,7 @@ title: "Put Yourself Out There: Get Something Back"
 date: "2019-03-24"
 ---
 
-A few weeks, I shared my thoughts about the [difficulty of job searching and how I'm trying to stay optimistic despite the fact that it's easy to become discouraged](/blogs/03-10-2019-staying-optimistic). It's always scary to put yourself out there, but when you're willing to put yourself out there, things come back to you. Posting that blog has reminded me of this fact.
+A few weeks ago, I shared my thoughts about the [difficulty of job searching and how I'm trying to stay optimistic despite the fact that it's easy to become discouraged](/blogs/03-10-2019-staying-optimistic). It's always scary to put yourself out there, but when you're willing to put yourself out there, things come back to you. Posting that blog has reminded me of this fact.
 
 In the two weeks since that post, I've been a little busy. Here are some of the things I've had going on:
 * Two calls with recruiters (one with someone whom I had met at a hiring event)

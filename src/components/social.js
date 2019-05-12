@@ -24,6 +24,12 @@ const Social = () => (
       <a href="https://twitter.com/sarahscode">
         <img src={twitter} alt="twitter @sarahscode" className="socialImage" />
       </a>
+      <a href="https://dev.to/sarahscode">
+        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" 
+          alt="Sarah Katz's DEV Profile" 
+          className="socialImage"
+        />
+      </a>
       <Link to="rss.xml">
         <img src={rss} alt="blog rss subscription" className="socialImage" />
       </Link>
