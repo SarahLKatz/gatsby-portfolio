@@ -11,7 +11,7 @@ I was recently in a situation where I had to decide whether I was interested in 
 
 That's a tough question to answer ... since I don't have a dream job.
 
-Software development is career attempt #4(ish) for me, and for most of them, I've either gone in with a dream job or developed one shortly after starting my career. When I was studing physical therapy, it was becoming team physical therapist for the New York Yankees (a difficult task since as far as I know they don't have a team PT ... and I can't work weekends). When I was doing graphic design, my dream job was working as a designer for Disney's Yellow Shoes Creative Group. As a developer ... I have no idea what my dream job is.
+Software development is career attempt #4(ish) for me, and for most of them, I've either gone in with a dream job or developed one shortly after starting my career. When I was studying physical therapy, it was becoming team physical therapist for the New York Yankees (a difficult task since as far as I know they don't have a team PT ... and I can't work weekends). When I was doing graphic design, my dream job was working as a designer for Disney's Yellow Shoes Creative Group. As a developer ... I have no idea what my dream job is.
 
 Early in my current job search I made a [list](02-20-2019-my-ideal-job) of some of the things I was looking for in my next job/company. But even then, I knew I didn't have a dream job. I didn't have a good sense of where I wanted my career. Lately I've been wondering if part of the reason why I'm struggling in my current job search is because I'm not on a specific path and I don't know what I'm working towards.
 
