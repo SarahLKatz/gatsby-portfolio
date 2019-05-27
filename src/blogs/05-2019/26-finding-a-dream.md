@@ -1,8 +1,8 @@
 ---
-path: "/blogs/05-26-2019-dream-job"
+path: "/blogs/05-27-2019-dream-job"
 draft: false 
 title: "Finding A Dream"
-date: "2019-05-26"
+date: "2019-05-27"
 ---
 
 For the past 3.5 months, I've been in full-time job search mode. But I've also been floundering. I've been looking at available jobs and seeing if they feel like they might be a good fit, instead of going out and looking for the job I want. And I think that's part of why I've been struggling. 
