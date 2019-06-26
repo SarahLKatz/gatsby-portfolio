@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import github from '../images/github.png'
 import linkedin from '../images/linkedin.png'
 import twitter from '../images/twitter.png'
@@ -30,9 +29,9 @@ const Social = () => (
           className="socialImage"
         />
       </a>
-      <Link to="rss.xml">
+      <a href="rss.xml">
         <img src={rss} alt="blog rss subscription" className="socialImage" />
-      </Link>
+      </a>
       <a href="https://medium.com/@sarahscode">
         <img src={medium} alt="medium @sarahscode" className="socialImage" />
       </a>
