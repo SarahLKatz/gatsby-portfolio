@@ -11,10 +11,10 @@ const Blog = ({data, pageContext}) => {
     <Layout>
       <div className="rssFeed">
         <h3>From the mind of Sarah...</h3>
-        <Link to="rss.xml">
+        <a href="rss.xml">
           <span>RSS Feed:&nbsp;</span>
           <img src={rss} alt="blog rss subscription" className="socialImage" />
-        </Link>
+        </a>
       </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
