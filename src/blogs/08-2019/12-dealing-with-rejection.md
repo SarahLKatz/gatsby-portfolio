@@ -1,17 +1,17 @@
 ---
 path: "/blogs/08-12-2019-dealing-with-rejection"
 draft: false 
-title: "Dealing With Rejection: How To Bounce Back" 
+title: "Dealing With Rejection: How I Bounce Back" 
 date: "2019-08-12"
 ---
 
-I recently applied for a job that I was fairly excited about. I made it through the full interview process, even coming out of the onsite feeling decently good, but was not extended an offer. 
+I recently applied for a job that I was fairly excited about. I made it through the full interview process, even coming out of the onsite feeling decently good, but was not extended an offer (in the interest of full disclosure, I was connected with someone else in the company to see if we could find a fit for me on a different team). 
 
 So ... **rejection**.
 
 Everyone experiences rejection at some point in their career. I was fortunate in my first developer job search in that I never received a rejection after an onsite interview, but in this second round of job searching, I've gotten quite a few rejections (mostly either before I speak to anyone or after the initial phone screen, but a number of jobs have gone further along in the process (including a few onsite interviews) before deciding that I wasn't the right match). Being rejected hurts, especially when you've invested a lot of time and energy in the application and interview process.
 
-The most important thing to do after a rejection is to pick yourself back up and keep going. For me, that's not really a one-step process. Here are some of the steps I go through to bounce back after a rejection:
+The hardest, but also most important, thing to do after a rejection is to pick yourself back up and keep going. For me, that's not really a one-step process. Here are some of the steps I go through to bounce back after a rejection:
 
 * _Acceptance_ - After an interview (and sometimes before the interview), I have a tendency to get ahead of myself and imagine myself working for the company. After a rejection, I take a few moments to internalize the rejection and come to terms with the fact that my visions of myself working for this company are not going to be coming true right now.
 
@@ -21,7 +21,7 @@ The most important thing to do after a rejection is to pick yourself back up and
   * I had an interview once where I was asked to architect a version of Instagram. I was asked everything from what technologies I'd use to specific SQL queries. At that point I hadn't worked directly with SQL in a while, and it turns out I forgot a lot of things, like how to sort queries or only query for a certain date. I was pretty sure I knew a decent amount of why I bombed that interview.
   * At a recent interview, I was asked to code something, and while I considered building a utility function that could help me, I ultimately decided not to use the utility function and to do things in a less elegant way (I actually built the utility function and then deleted it because I thought I could get the code to work without it). While I don't know if this contributed to my rejection, it did make me realize that I sometimes second guess my decisions when I shouldn't.
 
-* _Finding Fixes_ - Sometimes, you just have no idea what you could have done better, so there's nothing to "fix." But for situations where you have an idea of where you could have done better (or if the company gave you some specific feedback), take some time to fill in that gap and try to prevent this same situation from happening again.
+* _Finding Fixes_ - Sometimes, you just have no idea what you could have done better, so there's nothing to "fix." But for situations where you have an idea of where you could have done better (or if the company gave you some specific feedback), take some time to fill in that gap so that you're better prepared when this situation arises again. Here are some examples of that:
   * After the interview where I realized that I just don't remember SQL at all, I decided to refresh my SQL knowledge by going over the SQL workshop we did while I was in my coding bootcamp. After finishing that, I still wasn't confident in my skills, so I did [Codecademy's Learn SQL course](https://www.codecademy.com/learn/learn-sql) to further refresh my memory.  
   * When approaching a code challenge, I try to write out my general steps in pseudocode, but I don't really write the specifics. I realized after this recent interview that after I think out the steps, it would help me to write the specific approach I want to use for each step in the pseudocode, so that when it comes time to code, all I have to do is remember the exact syntax I need. If I have the specific approach written out, I'll know before starting to code what "extras" I might need and can make the decision, and hopefully then I won't second guess my decisions once I start writing code.
 
