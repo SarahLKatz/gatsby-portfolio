@@ -1,13 +1,10 @@
-a {
-  text-decoration: none;
-}
-
 .rssFeed {
   display: flex;
   justify-content: space-between;
 }
 
 .rssFeed a {
+  color: #2A4494;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -21,13 +18,13 @@ a {
 .postTitle {
   margin-bottom: 0.25rem;
   margin-left: 1px;
-  color: darkblue;
+  color: #122C34;
 }
 
 .postData {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: steelblue;
+  color: #2A4494;
   font-size: 0.9rem;
 }
 
@@ -37,7 +34,7 @@ a {
 }
 
 .postNav a {
-  color: darkblue;
+  color: #2A4494;
   size: 0.75rem;
   margin-bottom: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
