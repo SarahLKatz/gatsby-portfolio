@@ -1,8 +1,8 @@
 ---
-path: "/blogs/08-25-2019-lifelong-learner"
+path: "/blogs/08-26-2019-lifelong-learner"
 draft: false 
 title: "Being a Lifelong Learner"
-date: "2019-08-25"
+date: "2019-08-26"
 ---
 
 I always say that being a professional student would be my ideal job. I'm never more at home than I am sitting at a desk (or table) listening to lectures and taking notes. Homework, projects, tests ... all of these are tough, but they're in my wheelhouse. I didn't always love school, but it was always where I felt most comfortable.
