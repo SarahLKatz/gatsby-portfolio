@@ -6,3 +6,6 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+# Unused blogs
+/src/blogs/12-2020
