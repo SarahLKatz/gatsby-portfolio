@@ -24,6 +24,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
             frontmatter {
               path
+              draft
               date
             }
           }
@@ -60,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
         redirectInBrowser: true 
       })
       const prevPath = (idx > 0) ? posts[idx-1].node.frontmatter.path : ''
-      const nextPath = (idx < posts.length-1) ? posts[idx+1].node.frontmatter.path : ''
+      const nextPath = (idx < posts.length-1 && !posts[idx+1].node.frontmatter.path) ? posts[idx+1].node.frontmatter.path : ''
       createPage({
         path: node.frontmatter.path,
         component: path.resolve(`./src/templates/blog-post.js`),
