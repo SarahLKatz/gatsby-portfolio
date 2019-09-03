@@ -16,7 +16,11 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(
+      sort: { fields: [frontmatter___date] }
+      filter: { frontmatter: { draft: { ne: true } } }
+      limit: 1000
+    ) {
         edges {
           node {
             fields {
@@ -61,7 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
         redirectInBrowser: true 
       })
       const prevPath = (idx > 0) ? posts[idx-1].node.frontmatter.path : ''
-      const nextPath = (idx < posts.length-1 && !posts[idx+1].node.frontmatter.path) ? posts[idx+1].node.frontmatter.path : ''
+      const nextPath = (idx < posts.length-1) ? posts[idx+1].node.frontmatter.path : ''
       createPage({
         path: node.frontmatter.path,
         component: path.resolve(`./src/templates/blog-post.js`),
