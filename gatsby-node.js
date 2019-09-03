@@ -16,7 +16,11 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(
+      sort: { fields: [frontmatter___date] }
+      filter: { frontmatter: { draft: { ne: true } } }
+      limit: 1000
+    ) {
         edges {
           node {
             fields {
@@ -24,6 +28,7 @@ exports.createPages = ({ graphql, actions }) => {
             }
             frontmatter {
               path
+              draft
               date
             }
           }
