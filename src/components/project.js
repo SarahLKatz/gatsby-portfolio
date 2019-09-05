@@ -5,7 +5,7 @@ import '../styles/projects.css'
 const Project = ({ projectData }) => { // figure out title line, layout desired
   const { name, date, at, description, github, live, demo, tech } = projectData
   return (
-    <section className="projectContainer">
+    <article className="projectContainer">
       <div className="projectTitle">
         <span>{name}</span> ~ <span>{date}</span>
       </div>
@@ -35,7 +35,7 @@ const Project = ({ projectData }) => { // figure out title line, layout desired
           </a>
         )}
       </div>
-    </section>
+    </article>
   )
 }
 

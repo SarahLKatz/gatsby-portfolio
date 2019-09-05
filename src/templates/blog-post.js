@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { DiscussionEmbed } from "disqus-react"
+import { DiscussionEmbed } from 'disqus-react'
 
 import Layout from '../components/layout'
 import '../styles/blog.css'
 
 export default ({ data, pageContext }) => {
   const post = data.markdownRemark
-  const disqusShortname = "sarahlkatz"
+  const disqusShortname = 'sarahlkatz'
   const disqusConfig = {
     identifier: post.id,
     title: post.frontmatter.title,
   }
   return (
     <Layout>
-      <div>
-        <h3>From the mind of Sarah...</h3>
-        <h1 className="postTitle">{post.frontmatter.title}</h1>
-        <h4 className="postData">{post.frontmatter.date}</h4>
+      <article>
+        <h1>From the mind of Sarah...</h1>
+        <h2 className="postTitle">{post.frontmatter.title}</h2>
+        <span className="postData">{post.frontmatter.date}</span>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="postNav">
           {pageContext.prevPath ? (
@@ -32,7 +32,7 @@ export default ({ data, pageContext }) => {
             <div />
           )}
         </div>
-      </div>
+      </article>
       <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )

@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="content">{children}</div>
+        <section className="content">{children}</section>
         <Social />
       </div>
     )}
