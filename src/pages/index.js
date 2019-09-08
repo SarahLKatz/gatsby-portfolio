@@ -8,8 +8,8 @@ const IndexPage = ({data}) => {
   const {resume, tech, projects, blog} = data
   return (
     <Layout>
-      <div className="container">
-        <div className="pageContainer">
+      <section className="container">
+        <article className="pageContainer">
           <div
             className="pageLink"
             style={{
@@ -18,11 +18,11 @@ const IndexPage = ({data}) => {
             }}
           >
             <Link to="/resume">
-              <h3>RESUME</h3>
+              <span>RESUME</span>
             </Link>
           </div>
-        </div>
-        <div className="pageContainer">
+        </article>
+        <article className="pageContainer">
           <div
             className="pageLink"
             style={{
@@ -31,11 +31,11 @@ const IndexPage = ({data}) => {
             }}
           >
             <Link to="/tech">
-              <h3>TECH STACK</h3>
+              <span>TECH STACK</span>
             </Link>
           </div>
-        </div>
-        <div className="pageContainer">
+        </article>
+        <article className="pageContainer">
           <div
             className="pageLink mute"
             style={{
@@ -44,11 +44,11 @@ const IndexPage = ({data}) => {
             }}
           >
             <Link to="/projects">
-              <h3>PROJECTS</h3>
+              <span>PROJECTS</span>
             </Link>
           </div>
-        </div>
-        <div className="pageContainer">
+        </article>
+        <article className="pageContainer">
           <div
             className="pageLink"
             style={{
@@ -57,11 +57,11 @@ const IndexPage = ({data}) => {
             }}
           >
             <Link to="/blog">
-              <h3>BLOG</h3>
+              <span>BLOG</span>
             </Link>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </Layout>
   )
 }
