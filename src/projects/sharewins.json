@@ -1,0 +1,12 @@
+{
+  "name": "Share Wins",
+  "image": "",
+  "date": "August-September 2019",
+  "at": "",
+  "description" : "A fun website allowing users to share their wins with the greater community.",
+  "github": "https://github.com/SarahLKatz/gatsby-portfolio",
+  "live" : "https://sharewins-7144c.firebaseapp.com",
+  "demo": "",
+  "tech" : "React, Material UI, Firebase Realtime Database",
+  "sort": "2019-08"
+}
