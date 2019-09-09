@@ -21,7 +21,7 @@
   color: black;
 }
 
-.pageLink a:visited {
+.pageLink a, .pageLink a:visited {
   color: black;
 }
 
