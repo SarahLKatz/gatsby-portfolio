@@ -5,7 +5,7 @@ import '../styles/tech.css'
 
 const TechStack = () => (
   <Layout>
-    <div>
+    <article>
       <h3>I Can Work With...</h3>
       <ul className="tech-list">
         <li className="tech-item">JavaScript</li>
@@ -24,14 +24,14 @@ const TechStack = () => (
         <li className="tech-item">Selenium Webdriver</li>
         <li className="tech-item">Jest</li>
       </ul>
-    </div>
-    <div>
+    </article>
+    <article>
       <h3>I'm Still Learning...</h3>
       <ul className="tech-list">
         <li className="tech-item">Gatsby</li>
         <li className="tech-item">GraphQL</li>
       </ul>
-    </div>
+    </article>
   </Layout>
 )
 

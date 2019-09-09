@@ -10,7 +10,7 @@
 .projectTitle {
   font-size: 1rem;
   font-weight: 500;
-  margin-left: 1px;
+  margin-left: 0.25vw;
 }
 
 .projectAt {
@@ -26,6 +26,10 @@
   font-size: 0.85rem;
   line-height: 0.9rem;
   margin-bottom: 1vh;
+}
+
+.bold {
+  font-weight: 500;
 }
 
 .projectLinks {

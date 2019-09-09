@@ -1,9 +1,5 @@
-a {
-  text-decoration: none;
-}
-
 .headerBackground {
-  background: steelblue;
+  background: #2A4494;
   margin-bottom: 1.45rem;
 }
 
@@ -46,6 +42,8 @@ a {
   width: 25px;
   height: 25px;
   margin: 1vw;
+  padding: 2px;
+  background-color: rgba(255,255,255,0.25);
 }
 
 @media only screen and (min-width: 480px) {

@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import '../styles/layout.css'
 
 const Header = ({ siteTitle }) => (
-  <div className="headerBackground">
+  <header className="headerBackground">
     <div className="headerContent">
       <h1 className="noMargin">
         <Link to="/" className="white">
@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
         NYC-Based Full Stack JS Developer
       </h2>
     </div>
-  </div>
+  </header>
 )
 
 export default Header

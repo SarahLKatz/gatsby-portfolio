@@ -10,14 +10,14 @@ const Blog = ({data, pageContext}) => {
   return (
     <Layout>
       <div className="rssFeed">
-        <h3>From the mind of Sarah...</h3>
+        <h2>From the mind of Sarah...</h2>
         <a href="rss.xml">
           <span>RSS Feed:&nbsp;</span>
           <img src={rss} alt="blog rss subscription" className="socialImage" />
         </a>
       </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id}>
+        <article key={node.id}>
           <Link to={node.frontmatter.path}>
             <h3 className="postTitle">{node.frontmatter.title}</h3>
           </Link>
@@ -27,9 +27,9 @@ const Blog = ({data, pageContext}) => {
             </span>
             <p>{node.excerpt}</p>
           </div>
-        </div>
+        </article>
       ))}
-      {numPages === currentPage && <h5>
+      {numPages === currentPage && <span>
         Older blog posts can be found on&nbsp;
         <a
           href="https://medium.com/@sarahscode"
@@ -37,8 +37,8 @@ const Blog = ({data, pageContext}) => {
         >
           Medium
         </a>
-      </h5>}
-      <div className="postNav">
+      </span>}
+      <nav className="postNav">
         {currentPage > 1 ? (
           <Link to={`/blog/${currentPage-1}`}>Previous Page</Link>
         ) : (
@@ -49,7 +49,7 @@ const Blog = ({data, pageContext}) => {
         ) : (
           <div />
         )}
-      </div>
+      </nav>
     </Layout>
   )
 }

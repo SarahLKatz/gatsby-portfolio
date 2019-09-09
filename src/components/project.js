@@ -5,7 +5,7 @@ import '../styles/projects.css'
 const Project = ({ projectData }) => { // figure out title line, layout desired
   const { name, date, at, description, github, live, demo, tech } = projectData
   return (
-    <div className="projectContainer">
+    <article className="projectContainer">
       <div className="projectTitle">
         <span>{name}</span> ~ <span>{date}</span>
       </div>
@@ -16,7 +16,7 @@ const Project = ({ projectData }) => { // figure out title line, layout desired
       )}
       <p className="projectDescription">{description}</p>
       <p className="projectTech">
-        <h5>Technologies Used:</h5> {tech}
+        <span className="bold">Technologies Used:</span> {tech}
       </p>
       <div className="projectLinks">
         {github && (
@@ -35,7 +35,7 @@ const Project = ({ projectData }) => { // figure out title line, layout desired
           </a>
         )}
       </div>
-    </div>
+    </article>
   )
 }
 
