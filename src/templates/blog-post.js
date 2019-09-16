@@ -15,9 +15,9 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <article>
-        <h1>From the mind of Sarah...</h1>
-        <h2 className="postTitle">{post.frontmatter.title}</h2>
-        <span className="postData">{post.frontmatter.date}</span>
+        <span>From the mind of Sarah...</span>
+        <h1 className="postTitle">{post.frontmatter.title}</h1>
+        <div className="postData">{post.frontmatter.date}</div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className="postNav">
           {pageContext.prevPath ? (
