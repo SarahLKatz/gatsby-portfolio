@@ -40,12 +40,12 @@ const Blog = ({data, pageContext}) => {
       </span>}
       <nav className="postNav">
         {currentPage > 1 ? (
-          <Link to={`/blog/${currentPage-1}`}>Previous Page</Link>
+          <Link to={`/blog/${currentPage-1}`}>Newer Posts</Link>
         ) : (
           <div />
         )}
         {currentPage < numPages ? (
-          <Link to={`/blog/${currentPage+1}`}>Next Page</Link>
+          <Link to={`/blog/${currentPage+1}`}>Older Posts</Link>
         ) : (
           <div />
         )}
