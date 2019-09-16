@@ -11,7 +11,7 @@ const ResumePage = ({data}) => (
       <h3>Work History</h3>
       <div>
         <h4 className="itemTitle">Techolution ~ Fullstack UI Developer</h4>
-        <h5 className="itemDates">New York, NY ~ February 2018 - Present</h5>
+        <h5 className="itemDates">New York, NY ~ February 2018 - February 2019</h5>
         <p className="itemContent">
           100% onsite position at a client (fashion retail and ecommerce brand),
           creating automated testing and working on front end feature
