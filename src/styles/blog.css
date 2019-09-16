@@ -26,6 +26,7 @@
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #2A4494;
   font-size: 0.9rem;
+  margin: 0.5rem 0; 
 }
 
 .postNav {
@@ -45,4 +46,10 @@ p, li {
   font-family: Droid Sans, Helvetica Neue, sans-serif;
   font-size: 0.9rem;
   line-height: 1rem;
+}
+
+span {
+  font-family: Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.25rem;
 }
