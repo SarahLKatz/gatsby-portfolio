@@ -9,7 +9,7 @@ import '../styles/layout.css'
 
 const Social = () => (
   <div className="headerBackground">
-    <div className="footerContent">
+    <div className="socialContent">
       <a href="https://github.com/sarahlkatz">
         <img src={github} alt="github @sarahlkatz" className="socialImage" />
       </a>
