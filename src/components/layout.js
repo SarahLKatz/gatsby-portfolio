@@ -42,12 +42,19 @@ const Layout = ({ children }) => (
             },
           ]}
         />
-        <header className="header">
+        {/*<header className="header">
+                  <Header siteTitle={data.site.siteMetadata.title} />
+                  <div className="navSocial">
+                    <Nav menuLinks={data.site.siteMetadata.menuLinks} />
+                    <Social />
+                  </div>
+                </header>*/}
+        <header className="test">
           <Header siteTitle={data.site.siteMetadata.title} />
-          <div className="navSocial">
+          <div className="test2">
             <Nav menuLinks={data.site.siteMetadata.menuLinks} />
             <Social />
-          </div>
+           </div>
         </header>
         <section className="content">{children}</section>
       </div>

@@ -1,9 +1,9 @@
 {
   "name": "Share Wins",
-  "image": "",
+  "image": "sharewins.png",
   "date": "August-September 2019",
   "at": "",
-  "description" : "A fun website allowing users to share their wins with the greater community.",
+  "description" : "A fun website allowing users to share their wins with the greater community. All users can view wins submitted by others, and authenticated users can enter their own wins to share their successes with the community.",
   "github": "https://github.com/SarahLKatz/gatsby-portfolio",
   "live" : "https://sharewins-7144c.firebaseapp.com",
   "demo": "",

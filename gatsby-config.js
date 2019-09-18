@@ -4,11 +4,11 @@ module.exports = {
     siteUrl: 'https://www.sarahlkatz.com',
     menuLinks: [ 
       {
-        name: 'Resume',
-        link: '/resume'
+        name: 'Home',
+        link: '/'
       }, {
-        name: 'Tech Stack',
-        link: '/tech'
+        name: 'About',
+        link: '/about'
       }, {
         name: 'Projects',
         link: '/projects'
