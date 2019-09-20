@@ -8,7 +8,7 @@
 
 .blurb h3 {
   font-size: 1.1rem;
-  color: #777dea;
+  color: var(--purple);
 }
 
 .blurb a {
@@ -33,7 +33,7 @@
 }
 
 .about h2 {
-  color: #777dea;
+  color: var(--purple);
 }
 
 .about img {

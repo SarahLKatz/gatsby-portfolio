@@ -7,9 +7,9 @@ const Header = ({ siteTitle }) => (
     <h1 className="title">
       {siteTitle}
     </h1>
-    <h2 className="subtitle">
+    <div className="subtitle">
       NYC-Based Full Stack JS Developer
-    </h2>
+    </div>
   </div>
 )
 
