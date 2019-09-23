@@ -1,16 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 import Layout from '../components/layout'
 import '../styles/projects.css'
 
-import github from '../images/github.png'
-
 const Projects = ({ data: { allProjectsJson } }) => {
   const projects = allProjectsJson.edges
-  const sampleProj = projects[0].node
-  console.log(sampleProj)
-  // const image = require(`../images/${sampleProj.image}`)
   return (
     <Layout>
       <div className="allProjects">
@@ -19,12 +18,29 @@ const Projects = ({ data: { allProjectsJson } }) => {
             <img src={require(`../images/${node.image}`)} alt="" />
             <div className="projectLinks">
               {node.github && (
-                <a href={node.github}>
-                  <img src={github} alt="github repository" />
+                <a
+                  href={node.github}
+                  aria-label={`Click to open the code for ${node.name} on GitHub`}
+                >
+                  <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
                 </a>
               )}
-              {node.live && <a href={node.live}>🌐</a>}
-              {node.demo && <a href={node.live}>📹</a>}
+              {node.live && (
+                <a
+                  href={node.live}
+                  aria-label={`Click to open ${node.name} live on the web`}
+                >
+                  <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
+                </a>
+              )}
+              {node.demo && (
+                <a
+                  href={node.demo}
+                  aria-label={`Click to open a video presentation of ${node.name}`}
+                >
+                  <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
+                </a>
+              )}
             </div>
             <div className="projectName">{node.name}</div>
             <p className="projectItal">{node.date}</p>

@@ -78,7 +78,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    markdownRemark {
+    markdownRemark(frontmatter: {draft: {eq: false}}) {
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
