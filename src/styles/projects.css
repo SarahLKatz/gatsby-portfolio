@@ -1,51 +1,47 @@
-.projectContainer {
-  border: 1px solid black;
-  background: rgb(252,252,252);
-  padding: 1vw;
-  margin: 1vw;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.allProjects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.projectTitle {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-left: 0.25vw;
-}
-
-.projectAt {
-  font-size: 0.75rem;
-  margin-bottom: 1vh;
-}
-
-.projectDescription {
-  display: none;
-}
-
-.projectTech {
-  font-size: 0.85rem;
-  line-height: 0.9rem;
-  margin-bottom: 1vh;
-}
-
-.bold {
-  font-weight: 500;
+.project {
+  width: 35%;
+  padding: 1vh 1vw;
+  margin: 0 2vh 1vw 0;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid black;
 }
 
 .projectLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding-bottom: 2vh;
+  margin: 0 auto 2vh auto;
+  border-bottom: 1px solid black;
 }
 
-@media only screen and (min-width: 480px) {
-  .projectTitle {
-    font-size: 1.25rem;
-  }
+.projectLinks a {
+  margin: 0 1vw;
+}
 
-  .projectDescription {
-    display: block;
-    font-size: 0.7rem;
-    line-height: 0.75rem;
-    margin-bottom: 1vh;
-  }
+.projectLinks img {
+  width: 20px;
+  margin: 0 auto;
+}
+
+.projectName {
+  font-weight: bold;
+}
+
+.project p {
+  margin-bottom: 1vh;
+}
+
+.projectItal {
+  font-style: italic;
+  font-size: 0.8rem;
 }
