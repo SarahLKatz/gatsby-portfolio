@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faRss } from '@fortawesome/free-solid-svg-icons'
+
+
 import Layout from '../components/layout'
-import rss from '../images/rss.svg'
 
 import '../styles/blog.css'
 
@@ -11,9 +15,14 @@ const Blog = ({data, pageContext}) => {
     <Layout>
       <div className="rssFeed">
         <h2>From the mind of Sarah...</h2>
-        <a href="rss.xml">
+        <a href="rss.xml" aria-label="Visit the rss feed for Sarah's blog">
           <span>RSS Feed:&nbsp;</span>
-          <img src={rss} alt="blog rss subscription" className="socialImage" />
+          <FontAwesomeIcon
+            icon={faRss}
+            className="socialImage"
+            aria-hidden="true"
+          />
+          {/*<img src={rss} alt="blog rss subscription" className="socialImage" />*/}
         </a>
       </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (

@@ -15,37 +15,41 @@ const Projects = ({ data: { allProjectsJson } }) => {
       <div className="allProjects">
         {projects.map(({ node }) => (
           <div className="project">
-            <img src={require(`../images/${node.image}`)} alt="" />
-            <div className="projectLinks">
-              {node.github && (
-                <a
-                  href={node.github}
-                  aria-label={`Click to open the code for ${node.name} on GitHub`}
-                >
-                  <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
-                </a>
-              )}
-              {node.live && (
-                <a
-                  href={node.live}
-                  aria-label={`Click to open ${node.name} live on the web`}
-                >
-                  <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
-                </a>
-              )}
-              {node.demo && (
-                <a
-                  href={node.demo}
-                  aria-label={`Click to open a video presentation of ${node.name}`}
-                >
-                  <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
-                </a>
-              )}
+            <div className="projectVisual">
+              <img src={require(`../images/${node.image}`)} alt="" />
+              <div className="projectLinks">
+                {node.github && (
+                  <a
+                    href={node.github}
+                    aria-label={`Click to open the code for ${node.name} on GitHub`}
+                  >
+                    <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
+                  </a>
+                )}
+                {node.live && (
+                  <a
+                    href={node.live}
+                    aria-label={`Click to open ${node.name} live on the web`}
+                  >
+                    <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
+                  </a>
+                )}
+                {node.demo && (
+                  <a
+                    href={node.demo}
+                    aria-label={`Click to open a video presentation of ${node.name}`}
+                  >
+                    <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
+                  </a>
+                )}
+              </div>
             </div>
-            <div className="projectName">{node.name}</div>
-            <p className="projectItal">{node.date}</p>
-            <p>{node.description}</p>
-            <p className="projectItal">Tech: {node.tech}</p>
+            <div className="projectText">
+              <div className="projectName">{node.name}</div>
+              <p className="projectItal">{node.date}</p>
+              <p>{node.description}</p>
+              <p className="projectItal">Tech: {node.tech}</p>
+            </div>
           </div>
         ))}
       </div>

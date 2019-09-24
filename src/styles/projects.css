@@ -7,21 +7,29 @@
 }
 
 .project {
-  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1vh 1vw;
   margin: 0 2vh 1vw 0;
   padding-bottom: 2vh;
   border-bottom: 1px solid black;
 }
 
+.projectVisual {
+  margin-right: 3vw;
+}
+
+.projectVisual img {
+  max-width: 25vw;
+}
+
 .projectLinks {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
   padding-bottom: 2vh;
   margin: 0 auto 2vh auto;
-  border-bottom: 1px solid black;
 }
 
 .projectLinks a {
@@ -44,4 +52,20 @@
 .projectItal {
   font-style: italic;
   font-size: 0.8rem;
+}
+
+
+@media only screen and (min-width: 780px) {
+  .project {
+    display: block;
+    width: 35%;
+    padding: 1vh 1vw;
+    margin: 0 2vh 1vw 0;
+    padding-bottom: 2vh;
+  }
+
+  .projectLinks {
+    flex-direction: row;
+    width: 75%;
+  }
 }
