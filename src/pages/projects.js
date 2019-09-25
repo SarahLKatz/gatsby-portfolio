@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Img from 'gatsby-image'
 
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
@@ -8,15 +9,23 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import Layout from '../components/layout'
 import '../styles/projects.css'
 
-const Projects = ({ data: { allProjectsJson } }) => {
+const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
   const projects = allProjectsJson.edges
+  const images = allImageSharp.edges
   return (
     <Layout>
       <div className="allProjects">
         {projects.map(({ node }) => (
-          <div className="project">
+          <div className="project" key={node.id}>
             <div className="projectVisual">
-              <img src={require(`../images/${node.image}`)} alt="" />
+              <Img
+                fluid={
+                  images.filter(image =>
+                    image.node.fluid.src.includes(node.image)
+                  )[0].node.fluid
+                }
+                alt={`${node.name} home screen`}
+              />
               <div className="projectLinks">
                 {node.github && (
                   <a
@@ -68,6 +77,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          id
           name
           date
           at
@@ -77,6 +87,15 @@ export const query = graphql`
           live
           demo
           tech
+        }
+      }
+    }
+    allImageSharp {
+      edges {
+        node {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }
