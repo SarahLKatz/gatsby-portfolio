@@ -22,7 +22,7 @@
   margin: 2vh auto;
 }
 
-.blurbProject img {
+.blurbProject .lazyImage {
   display: none;
 }
 
@@ -36,8 +36,14 @@
   color: var(--purple);
 }
 
-.about img {
-  max-height: 25vh;
+.about .lazyImage {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about .lazyImage img {
+  height: 25vh;
+  object-fit: fill;
   margin-left: 1vw;
 }
 
@@ -57,6 +63,10 @@
     align-items: center;
   }
 
+  .about .lazyImage {
+    width: 100%;
+  }
+
   .about img {
     float: none;
     height: 300px;
@@ -64,12 +74,19 @@
     margin-left: 2vw;
   }
 
+  .lazyImage {
+    width: 100%;
+  }
+
   .blurbProject {
     display: flex;
   }
 
-  .blurbProject img {
-    display: inline;
+  .blurbProject .lazyImage {
+    display: inline-block;
+  }
+
+  .blurbProject .lazyImage img {
     height: 200px;
     padding-right: 2vw;
   }
