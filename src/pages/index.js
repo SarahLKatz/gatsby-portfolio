@@ -5,8 +5,6 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
-// import slk from '../images/slk.png'
-
 const IndexPage = ({ data: { markdownRemark, projectsJson, file }, projImg }) => {
   const blog = markdownRemark
   const project = projectsJson
@@ -18,7 +16,6 @@ const IndexPage = ({ data: { markdownRemark, projectsJson, file }, projImg }) =>
           <div className="about">
             <div className="lazyImage">
               <Img fluid={file.childImageSharp.fluid} alt="Picture of Sarah" />
-            {/*<img src={slk} alt="" />*/}
             </div>
             <div>
               <h2>Hi, I'm Sarah!</h2>
@@ -46,7 +43,6 @@ const IndexPage = ({ data: { markdownRemark, projectsJson, file }, projImg }) =>
           <h2>My Latest Project:</h2>
           <h3>{project.name}</h3>
           <div className="blurbProject">
-            {/*<img src={image} alt="" />*/}
             <div className="lazyImage">
               <Img fluid={projImg.node.fluid} alt={`${project.name} home screen`} />
             </div>
@@ -79,28 +75,6 @@ const IndexPage = ({ data: { markdownRemark, projectsJson, file }, projImg }) =>
     </Layout>
   )
 }
-
-// export default IndexPage
-
-// export const query = graphql`
-//   query {
-//     markdownRemark(frontmatter: {draft: {eq: false}}) {
-//       frontmatter {
-//         title
-//         date(formatString: "MMMM DD, YYYY")
-//         path
-//       }
-//       rawMarkdownBody
-//     }
-//     projectsJson(sort: { eq: "2019-08" }) {
-//       description
-//       image
-//       github
-//       live
-//       name
-//     }
-//   }
-// `
 
 export default () => (
    <StaticQuery 

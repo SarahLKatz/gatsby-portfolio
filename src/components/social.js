@@ -13,7 +13,7 @@ import { faRss } from '@fortawesome/free-solid-svg-icons'
 import '../styles/layout.css'
 
 const Social = () => (
-  <div className="headerBackground">
+  <div>
     <div className="socialContent">
       <a
         href="https://github.com/sarahlkatz"

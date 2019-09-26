@@ -1,7 +1,3 @@
-.titleContent img {
-  max-height: 25vh;
-  margin-left: 1vw;
-}
 
 body {
   --purple: #5357a3;
@@ -37,6 +33,9 @@ a:hover {
 .navSocial {
   max-width: 75vw;
   margin: 0 auto;
+  display: flex column;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleContent {
@@ -45,13 +44,15 @@ a:hover {
 }
 
 .navLinks {
-  max-width: 960;
-  padding: 1vh 2vw 0 2vw;
-  display: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .navLinks a {
   color: var(--purple);
+  padding: 1vw;
 }
 
 .socialContent {
@@ -72,13 +73,12 @@ a:hover {
 
 .title {
   margin-bottom: 1vh;
+  font-size: 2rem;
   max-width: 75vw;
 }
 
 .subtitle {
   display: none;
-  margin-top: 0;
-  font-size: 1.25rem;
 }
 
 .socialImage {
@@ -98,16 +98,12 @@ a:hover {
 
   .subtitle {
     display: inline;
+    margin-top: 0;
+    font-size: 1.25rem;
   }
 
   .navLinks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .test2 {
-    width: 25vw;
+    max-width: 960;
   }
 }
 
