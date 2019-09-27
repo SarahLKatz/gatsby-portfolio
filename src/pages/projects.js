@@ -18,6 +18,7 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
       <div className="allProjects">
         {projects.map(({ node }) => (
           <div className="project" key={node.id}>
+            <h2 className="projectName">{node.name}</h2>
             <div className="projectVisual">
               <Img
                 fluid={
@@ -25,7 +26,7 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
                     image.node.fluid.src.includes(node.image)
                   )[0].node.fluid
                 }
-                alt={`${node.name} home screen`}
+                alt=""
               />
               <div className="projectLinks">
                 {node.github && (
@@ -55,7 +56,6 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
               </div>
             </div>
             <div className="projectText">
-              <div className="projectName">{node.name}</div>
               <p className="projectItal">{node.date}</p>
               <p>{node.description}</p>
               <p className="projectItal">Tech: {node.tech}</p>
