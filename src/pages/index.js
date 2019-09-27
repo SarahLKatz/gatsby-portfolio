@@ -5,9 +5,10 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
-const IndexPage = ({ data: { markdownRemark, projectsJson, file }, projImg }) => {
+const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg }) => {
+  console.log(allProjectsJson)
   const blog = markdownRemark
-  const project = projectsJson
+  const project = allProjectsJson.edges[0].node
   return (
     <Layout>
       <section className="container">
@@ -88,12 +89,23 @@ export default () => (
           }
           rawMarkdownBody
         }
-        projectsJson(sort: { eq: "2019-08" }) {
-          description
-          image
-          github
-          live
-          name
+        allProjectsJson(
+          sort: { fields: [sort], order: DESC }
+          limit: 1
+        ) {
+          edges {
+            node {
+              name
+              date
+              at
+              description
+              github
+              image
+              live
+              demo
+              tech
+            }
+          }
         }
         allImageSharp {
           edges {
@@ -114,7 +126,7 @@ export default () => (
       }
     `}
     render={(data) => (
-      <IndexPage data={data} projImg={data.allImageSharp.edges.filter(image => image.node.fluid.src.includes(data.projectsJson.image))[0]} />
+      <IndexPage data={data} projImg={data.allImageSharp.edges.filter(image => image.node.fluid.src.includes(data.allProjectsJson.edges[0].node.image))[0]} />
     )}
    />
 )
