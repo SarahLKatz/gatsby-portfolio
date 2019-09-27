@@ -16,10 +16,12 @@ export default ({ data, pageContext }) => {
     <Layout>
       <hr />
       <article>
-        <span>From the mind of Sarah...</span>
-        <h1 className="postTitle">{post.frontmatter.title}</h1>
-        <div className="postData">{post.frontmatter.date}</div>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h2 className="postTitle">{post.frontmatter.title}</h2>
+        <div className="postData">Posted: {post.frontmatter.date}</div>
+        <div
+          className="postContent"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
         <div className="postNav">
           {pageContext.prevPath ? (
             <Link to={pageContext.prevPath}>Previous Post</Link>
