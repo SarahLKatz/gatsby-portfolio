@@ -14,6 +14,7 @@ export default ({ data, pageContext }) => {
   }
   return (
     <Layout>
+      <hr />
       <article>
         <span>From the mind of Sarah...</span>
         <h1 className="postTitle">{post.frontmatter.title}</h1>

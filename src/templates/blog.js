@@ -13,6 +13,7 @@ const Blog = ({data, pageContext}) => {
   const { numPages, currentPage } = pageContext
   return (
     <Layout>
+     <hr />
       <div className="rssFeed">
         <h2>From the mind of Sarah...</h2>
         <a href="rss.xml" aria-label="Visit the rss feed for Sarah's blog">

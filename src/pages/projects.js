@@ -14,6 +14,7 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
   const images = allImageSharp.edges
   return (
     <Layout>
+      <hr />
       <div className="allProjects">
         {projects.map(({ node }) => (
           <div className="project" key={node.id}>
@@ -59,6 +60,7 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
               <p>{node.description}</p>
               <p className="projectItal">Tech: {node.tech}</p>
             </div>
+            <hr />
           </div>
         ))}
       </div>

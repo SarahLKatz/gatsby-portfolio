@@ -6,7 +6,6 @@ import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
 const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg }) => {
-  console.log(allProjectsJson)
   const blog = markdownRemark
   const project = allProjectsJson.edges[0].node
   return (

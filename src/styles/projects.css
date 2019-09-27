@@ -1,3 +1,9 @@
+hr {
+  border-top: 1px solid var(--line);
+  width: 75vw;
+  margin: 2vh auto;
+}
+
 .allProjects {
   display: flex;
   flex-wrap: wrap;
@@ -13,7 +19,11 @@
   padding: 1vh 1vw;
   margin: 0 2vh 1vw 0;
   padding-bottom: 2vh;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--line);
+}
+
+.project hr {
+  display: none;
 }
 
 .projectVisual {
@@ -62,10 +72,21 @@
     padding: 1vh 1vw;
     margin: 0 2vh 1vw 0;
     padding-bottom: 2vh;
+    border-bottom: 0px;
   }
 
   .projectLinks {
     flex-direction: row;
     width: 75%;
+  }
+
+  hr {
+    width: 50vw;
+    margin: 3vh auto;
+  }
+
+  .project hr {
+    width: 75%;
+    margin-top: 4vh;
   }
 }

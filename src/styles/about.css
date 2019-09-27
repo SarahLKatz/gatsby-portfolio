@@ -1,3 +1,13 @@
+.container {
+  display: block;
+}
+
+hr {
+  border-top: 1px solid var(--line);
+  width: 75vw;
+  margin: 2vh auto;
+}
+
 .headline {
   display: block;
   color: var(--purple);
@@ -6,4 +16,11 @@
 
 .resumeLink {
   color: var(--purple);
+}
+
+@media only screen and (min-width: 480px) {
+  hr {
+    width: 50vw;
+    margin: 3vh auto;
+  }
 }
