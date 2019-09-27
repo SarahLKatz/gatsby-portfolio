@@ -1,7 +1,22 @@
 module.exports = {
   siteMetadata: {
     title: 'Sarah Katz',
-    siteUrl: 'https://www.sarahlkatz.com'
+    siteUrl: 'https://www.sarahlkatz.com',
+    menuLinks: [ 
+      {
+        name: 'Home',
+        link: '/'
+      }, {
+        name: 'About',
+        link: '/about'
+      }, {
+        name: 'Projects',
+        link: '/projects'
+      }, {
+        name: 'Blog',
+        link: '/blog'
+      }, 
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

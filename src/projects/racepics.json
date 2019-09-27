@@ -1,6 +1,6 @@
 {
   "name": "Pics Or You Didn't Medal",
-  "image": "racepics.jpg",
+  "image": "racemedalpics.jpg",
   "date": "November 2017",
   "at": "Fullstack Academy",
   "description" : "This app, built for a five-day hackathon, allows users to input a race, date and location, and when they log in after the race, they will be shown some pictures taken nearby that can serve as inspiration for their post-race medal pictures.",

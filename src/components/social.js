@@ -1,42 +1,77 @@
 import React from 'react'
-import github from '../images/github.png'
-import linkedin from '../images/linkedin.png'
-import twitter from '../images/twitter.png'
-import medium from '../images/medium.png'
-import rss from '../images/rss.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import {
+  faGithub,
+  faLinkedin,
+  faDev,
+  faTwitter,
+  faMedium,
+} from '@fortawesome/free-brands-svg-icons'
+import { faRss } from '@fortawesome/free-solid-svg-icons'
 
 import '../styles/layout.css'
 
 const Social = () => (
-  <div className="headerBackground">
-    <div className="footerContent">
-      <a href="https://github.com/sarahlkatz">
-        <img src={github} alt="github @sarahlkatz" className="socialImage" />
-      </a>
-      <a href="https://linkedin.com/in/sarahlkatz">
-        <img
-          src={linkedin}
-          alt="linkedin @sarahlkatz"
-          className="socialImage"
-        />
-      </a>
-      <a href="https://twitter.com/sarahscode">
-        <img src={twitter} alt="twitter @sarahscode" className="socialImage" />
-      </a>
-      <a href="https://dev.to/sarahscode">
-        <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" 
-          alt="dev.to @sarahscode" 
-          className="socialImage"
-        />
-      </a>
-      <a href="rss.xml">
-        <img src={rss} alt="blog rss subscription" className="socialImage" />
-      </a>
-      <a href="https://medium.com/@sarahscode">
-        <img src={medium} alt="medium @sarahscode" className="socialImage" />
-      </a>
-    </div>
-  </div>
+  <nav className="socialContent">
+    <a
+      href="https://github.com/sarahlkatz"
+      aria-label="Visit @sarahlkatz on Github"
+    >
+      <FontAwesomeIcon
+        icon={faGithub}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+    <a
+      href="https://linkedin.com/in/sarahlkatz"
+      aria-label="Visit sarahlkatz on LinkedIn"
+    >
+      <FontAwesomeIcon
+        icon={faLinkedin}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+    <a
+      href="https://twitter.com/sarahscode"
+      aria-label="Visit @sarahscode on Twitter"
+    >
+      <FontAwesomeIcon
+        icon={faTwitter}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+    <a
+      href="https://dev.to/sarahscode"
+      aria-label="Visit @sarahscode on dev.to"
+    >
+      <FontAwesomeIcon
+        icon={faDev}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+    <a href="rss.xml" aria-label="Visit the rss feed for Sarah's blog">
+      <FontAwesomeIcon
+        icon={faRss}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+    <a
+      href="https://medium.com/@sarahscode"
+      aria-label="Visit @sarahscode on Medium"
+    >
+      <FontAwesomeIcon
+        icon={faMedium}
+        className="socialImage"
+        aria-hidden="true"
+      />
+    </a>
+  </nav>
 )
 
 export default Social

@@ -8,5 +8,6 @@
   "live" : "",
   "demo": "",
   "tech" : "React, Redux, Selenium Webdriver, Jest, HTML, CSS, Node.js",
-  "sort": "2019-02"
+  "sort": "2019-02",
+  "display": "false"
 }
