@@ -1,24 +1,21 @@
-.titleContent img {
-  max-height: 25vh;
-  margin-left: 1vw;
-}
 
 body {
-  --purple: #5357a3;  
+  --purple: #5357a3;
+  --text: #37393A;
+  --line: #D6FFF6;
 }
 
 * {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: #37393A;
+  color: var(--text);
   background: #FCFCFD;
   box-sizing: border-box;
 }
 
-
 a {
   text-decoration: none;
-  color: #37393A;
+  color: var(--text);
 }
 
 a:hover {
@@ -26,10 +23,18 @@ a:hover {
 }
 
 .header {
-  background: #77B6EA;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2vh;
+  width: 50vw;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+
+.navSocial {
+  max-width: 75vw;
+  margin: 0 auto;
+  display: flex column;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleContent {
@@ -37,20 +42,16 @@ a:hover {
   padding: 1vh 2vw;
 }
 
-.navSocial {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
 .navLinks {
-  max-width: 960;
-  padding: 1vh 2vw 0 2vw;
-  display: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .navLinks a {
   color: var(--purple);
+  padding: 1vw;
 }
 
 .socialContent {
@@ -62,11 +63,6 @@ a:hover {
   align-items: center;
 }
 
-a span {
-  display: none;
-}
-
-
 .content {
   margin: 0 auto;
   max-width: 960px;
@@ -76,13 +72,12 @@ a span {
 
 .title {
   margin-bottom: 1vh;
+  font-size: 2rem;
   max-width: 75vw;
 }
 
 .subtitle {
   display: none;
-  margin-top: 0;
-  font-size: 1.25rem;
 }
 
 .socialImage {
@@ -92,21 +87,7 @@ a span {
   background-color: rgba(255,255,255,0.25);
 }
 
-.test {
-  width: 50vw;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 2vh;
-}
 
-/*.test h1, .test h2 {
-  color: #77B6EA;
-}*/
-
-.test2 {
-  max-width: 75vw;
-  margin: 0 auto;
-}
 
 @media only screen and (min-width: 480px) {
   .headerContent {
@@ -117,16 +98,12 @@ a span {
 
   .subtitle {
     display: inline;
+    margin-top: 0;
+    font-size: 1.25rem;
   }
 
   .navLinks {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .test2 {
-    width: 25vw;
+    max-width: 960;
   }
 }
 

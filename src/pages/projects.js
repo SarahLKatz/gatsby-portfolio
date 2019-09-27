@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Img from 'gatsby-image'
 
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
@@ -8,44 +9,58 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import Layout from '../components/layout'
 import '../styles/projects.css'
 
-const Projects = ({ data: { allProjectsJson } }) => {
+const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
   const projects = allProjectsJson.edges
+  const images = allImageSharp.edges
   return (
     <Layout>
+      <hr />
       <div className="allProjects">
         {projects.map(({ node }) => (
-          <div className="project">
-            <img src={require(`../images/${node.image}`)} alt="" />
-            <div className="projectLinks">
-              {node.github && (
-                <a
-                  href={node.github}
-                  aria-label={`Click to open the code for ${node.name} on GitHub`}
-                >
-                  <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
-                </a>
-              )}
-              {node.live && (
-                <a
-                  href={node.live}
-                  aria-label={`Click to open ${node.name} live on the web`}
-                >
-                  <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
-                </a>
-              )}
-              {node.demo && (
-                <a
-                  href={node.demo}
-                  aria-label={`Click to open a video presentation of ${node.name}`}
-                >
-                  <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
-                </a>
-              )}
+          <div className="project" key={node.id}>
+            <h2 className="projectName">{node.name}</h2>
+            <div className="projectVisual">
+              <Img
+                fluid={
+                  images.filter(image =>
+                    image.node.fluid.src.includes(node.image)
+                  )[0].node.fluid
+                }
+                alt=""
+              />
+              <div className="projectLinks">
+                {node.github && (
+                  <a
+                    href={node.github}
+                    aria-label={`Click to open the code for ${node.name} on GitHub`}
+                  >
+                    <FontAwesomeIcon icon={faGithub} aria-hidden="true" />
+                  </a>
+                )}
+                {node.live && (
+                  <a
+                    href={node.live}
+                    aria-label={`Click to open ${node.name} live on the web`}
+                  >
+                    <FontAwesomeIcon icon={faGlobe} aria-hidden="true" />
+                  </a>
+                )}
+                {node.demo && (
+                  <a
+                    href={node.demo}
+                    aria-label={`Click to open a video presentation of ${node.name}`}
+                  >
+                    <FontAwesomeIcon icon={faYoutube} aria-hidden="true" />
+                  </a>
+                )}
+              </div>
             </div>
-            <div className="projectName">{node.name}</div>
-            <p className="projectItal">{node.date}</p>
-            <p>{node.description}</p>
-            <p className="projectItal">Tech: {node.tech}</p>
+            <div className="projectText">
+              <p className="projectItal">{node.date}</p>
+              <p>{node.description}</p>
+              <p className="projectItal">Tech: {node.tech}</p>
+            </div>
+            <hr />
           </div>
         ))}
       </div>
@@ -64,6 +79,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          id
           name
           date
           at
@@ -73,6 +89,15 @@ export const query = graphql`
           live
           demo
           tech
+        }
+      }
+    }
+    allImageSharp {
+      edges {
+        node {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }

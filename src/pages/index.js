@@ -1,22 +1,22 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
-import slk from '../images/slk.png'
-
-const IndexPage = ({ data: { markdownRemark, projectsJson } }) => {
+const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg }) => {
   const blog = markdownRemark
-  const project = projectsJson
-  const image = require(`../images/${project.image}`)
+  const project = allProjectsJson.edges[0].node
   return (
     <Layout>
       <section className="container">
         <article className="blurb">
           <hr />
           <div className="about">
-            <img src={slk} alt="" />
+            <div className="lazyImage">
+              <Img fluid={file.childImageSharp.fluid} alt="Picture of Sarah" />
+            </div>
             <div>
               <h2>Hi, I'm Sarah!</h2>
               <p>
@@ -43,7 +43,9 @@ const IndexPage = ({ data: { markdownRemark, projectsJson } }) => {
           <h2>My Latest Project:</h2>
           <h3>{project.name}</h3>
           <div className="blurbProject">
-            <img src={image} alt="" />
+            <div className="lazyImage">
+              <Img fluid={projImg.node.fluid} alt={`${project.name} home screen`} />
+            </div>
             <div>
               <p>{project.description}</p>
               <a href={project.live}>Live Link</a>
@@ -74,24 +76,56 @@ const IndexPage = ({ data: { markdownRemark, projectsJson } }) => {
   )
 }
 
-export default IndexPage
-
-export const query = graphql`
-  query {
-    markdownRemark(frontmatter: {draft: {eq: false}}) {
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        path
+export default () => (
+   <StaticQuery 
+     query={graphql`
+      query {
+        markdownRemark(frontmatter: {draft: {eq: false}}) {
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            path
+          }
+          rawMarkdownBody
+        }
+        allProjectsJson(
+          sort: { fields: [sort], order: DESC }
+          limit: 1
+        ) {
+          edges {
+            node {
+              name
+              date
+              at
+              description
+              github
+              image
+              live
+              demo
+              tech
+            }
+          }
+        }
+        allImageSharp {
+          edges {
+            node {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        file(relativePath: { eq: "slk.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
-      rawMarkdownBody
-    }
-    projectsJson(sort: { eq: "2019-08" }) {
-      description
-      image
-      github
-      live
-      name
-    }
-  }
-`
+    `}
+    render={(data) => (
+      <IndexPage data={data} projImg={data.allImageSharp.edges.filter(image => image.node.fluid.src.includes(data.allProjectsJson.edges[0].node.image))[0]} />
+    )}
+   />
+)

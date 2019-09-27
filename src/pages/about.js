@@ -8,6 +8,7 @@ import '../styles/about.css'
 const AboutPage = ({ data }) => (
   <Layout>
     <section>
+      <hr />
       <span className="headline">Hi, I'm Sarah.</span>
       <p>
         After graduating in late 2017 from the inaugural Web Development
@@ -25,7 +26,7 @@ const AboutPage = ({ data }) => (
         My current technology stack includes HTML, CSS, Javascript, React,
         Redux, Node.js, Express, PostgreSQL, Gatsby, and some GraphQL knowledge.
         Additionally, I have experience with testing frameworks including Jest
-        and Jasmine and UI testing with Selenium Webdriver. Other tools with
+        and Jasmine, as well as UI testing with Selenium Webdriver. Other tools with
         which I am experienced include GitHub, Slack, and JIRA.
       </p>
       <p>

@@ -12,17 +12,17 @@
 }
 
 .blurb a {
-  color: #000;
+  color: var(--text);
   margin: 0 30px 0 0;
 }
 
 .blurb hr {
-  border-top: 1px solid black;
+  border-top: 1px solid var(--line);
   width: 75vw;
   margin: 2vh auto;
 }
 
-.blurbProject img {
+.blurbProject .lazyImage {
   display: none;
 }
 
@@ -36,16 +36,19 @@
   color: var(--purple);
 }
 
-.about img {
-  max-height: 25vh;
+.about .lazyImage {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about .lazyImage img {
+  height: 25vh;
+  object-fit: fill;
   margin-left: 1vw;
+  padding-bottom: 1vh;
 }
 
 @media only screen and (min-width: 480px) {
-  .container {
-    /*display: flex;*/
-  }
-
   .blurb hr {
     width: 50vw;
     margin: 3vh auto;
@@ -57,6 +60,10 @@
     align-items: center;
   }
 
+  .about .lazyImage {
+    width: 10 0%;
+  }
+
   .about img {
     float: none;
     height: 300px;
@@ -64,12 +71,19 @@
     margin-left: 2vw;
   }
 
+  .lazyImage {
+    width: 100%;
+  }
+
   .blurbProject {
     display: flex;
   }
 
-  .blurbProject img {
-    display: inline;
+  .blurbProject .lazyImage {
+    display: inline-block;
+  }
+
+  .blurbProject .lazyImage img {
     height: 200px;
     padding-right: 2vw;
   }
