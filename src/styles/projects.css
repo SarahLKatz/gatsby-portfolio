@@ -1,51 +1,99 @@
-.projectContainer {
-  border: 1px solid black;
-  background: rgb(252,252,252);
-  padding: 1vw;
-  margin: 1vw;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+hr {
+  border-top: 1px solid var(--line);
+  width: 75vw;
+  margin: 2vh auto;
 }
 
-.projectTitle {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-left: 0.25vw;
+.allProjects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
 }
 
-.projectAt {
-  font-size: 0.75rem;
-  margin-bottom: 1vh;
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 1vw;
+  margin: 0 2vh 1vw 0;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid var(--line);
 }
 
-.projectDescription {
+.project hr {
   display: none;
 }
 
-.projectTech {
-  font-size: 0.85rem;
-  line-height: 0.9rem;
-  margin-bottom: 1vh;
+.projectVisual {
+  margin-right: 3vw;
 }
 
-.bold {
-  font-weight: 500;
+
+.projectVisual img {
+  width: 25vw;
 }
 
 .projectLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2vh;
+  margin: 0 auto 2vh auto;
 }
 
-@media only screen and (min-width: 480px) {
-  .projectTitle {
-    font-size: 1.25rem;
+.projectLinks a {
+  margin: 0 1vw;
+}
+
+.projectLinks img {
+  width: 20px;
+  margin: 0 auto;
+}
+
+.projectText {
+  width: 75%;
+}
+
+.projectName {
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.project p {
+  margin-bottom: 1vh;
+}
+
+.projectItal {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+
+@media only screen and (min-width: 780px) {
+  .project {
+    display: block;
+    width: 35%;
+    padding: 1vh 1vw;
+    margin: 0 2vh 1vw 0;
+    padding-bottom: 2vh;
+    border-bottom: 0px;
   }
 
-  .projectDescription {
-    display: block;
-    font-size: 0.7rem;
-    line-height: 0.75rem;
-    margin-bottom: 1vh;
+  .projectLinks {
+    flex-direction: row;
+    width: 75%;
+  }
+
+  hr {
+    width: 50vw;
+    margin: 3vh auto;
+  }
+
+  .project hr {
+    width: 75%;
+    margin-top: 4vh;
   }
 }

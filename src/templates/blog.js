@@ -1,21 +1,16 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+
 import Layout from '../components/layout'
-import rss from '../images/rss.svg'
 
 import '../styles/blog.css'
 
-const Blog = ({data, pageContext}) => {
+const Blog = ({ data, pageContext }) => {
   const { numPages, currentPage } = pageContext
   return (
     <Layout>
-      <div className="rssFeed">
-        <h2>From the mind of Sarah...</h2>
-        <a href="rss.xml">
-          <span>RSS Feed:&nbsp;</span>
-          <img src={rss} alt="blog rss subscription" className="socialImage" />
-        </a>
-      </div>
+      <hr />
+      <div className="introduction">Recent Blog Posts:</div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <article key={node.id}>
           <Link to={node.frontmatter.path}>
@@ -29,23 +24,25 @@ const Blog = ({data, pageContext}) => {
           </div>
         </article>
       ))}
-      {numPages === currentPage && <span>
-        Older blog posts can be found on&nbsp;
-        <a
-          href="https://medium.com/@sarahscode"
-          style={{ textDecoration: 'none' }}
-        >
-          Medium
-        </a>
-      </span>}
+      {numPages === currentPage && (
+        <span>
+          Older blog posts can be found on&nbsp;
+          <a
+            href="https://medium.com/@sarahscode"
+            style={{ textDecoration: 'none' }}
+          >
+            Medium
+          </a>
+        </span>
+      )}
       <nav className="postNav">
         {currentPage > 1 ? (
-          <Link to={`/blog/${currentPage-1}`}>Newer Posts</Link>
+          <Link to={`/blog/${currentPage - 1}`}>Newer Posts</Link>
         ) : (
           <div />
         )}
         {currentPage < numPages ? (
-          <Link to={`/blog/${currentPage+1}`}>Older Posts</Link>
+          <Link to={`/blog/${currentPage + 1}`}>Older Posts</Link>
         ) : (
           <div />
         )}
