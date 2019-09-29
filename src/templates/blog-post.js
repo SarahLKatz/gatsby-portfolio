@@ -14,29 +14,31 @@ export default ({ data, pageContext }) => {
   }
   return (
     <Layout>
-      <hr />
-      <article>
-        <h2 className="postTitle">{post.frontmatter.title}</h2>
-        <div className="postData">Posted: {post.frontmatter.date}</div>
-        <div
-          className="postContent"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-        <div className="postNav">
-          {pageContext.prevPath ? (
-            <Link to={pageContext.prevPath}>Previous Post</Link>
-          ) : (
-            <div />
-          )}
-          <Link to="/blog">Post List</Link>
-          {pageContext.nextPath ? (
-            <Link to={pageContext.nextPath}>Next Post</Link>
-          ) : (
-            <div />
-          )}
-        </div>
-      </article>
-      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+      <div className="blogPost">
+        <hr />
+        <article>
+          <h2 className="postTitle">{post.frontmatter.title}</h2>
+          <div className="postData">Posted: {post.frontmatter.date}</div>
+          <div
+            className="postContent"
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+          <div className="postNav">
+            {pageContext.prevPath ? (
+              <Link to={pageContext.prevPath}>Previous Post</Link>
+            ) : (
+              <div />
+            )}
+            <Link to="/blog">Post List</Link>
+            {pageContext.nextPath ? (
+              <Link to={pageContext.nextPath}>Next Post</Link>
+            ) : (
+              <div />
+            )}
+          </div>
+        </article>
+        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+      </div>
     </Layout>
   )
 }

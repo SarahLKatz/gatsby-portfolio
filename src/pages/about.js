@@ -7,7 +7,7 @@ import '../styles/about.css'
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <section>
+    <section className="aboutMe">
       <hr />
       <span className="headline">Hi, I'm Sarah.</span>
       <p>
