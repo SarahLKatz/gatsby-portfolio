@@ -2,7 +2,7 @@
   display: block;
 }
 
-hr {
+.aboutMe hr {
   border-top: 1px solid var(--line);
   width: 75vw;
   margin: 2vh auto;
@@ -19,7 +19,7 @@ hr {
 }
 
 @media only screen and (min-width: 480px) {
-  hr {
+  .aboutMe hr {
     width: 50vw;
     margin: 3vh auto;
   }

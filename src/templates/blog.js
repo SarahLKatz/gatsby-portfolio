@@ -9,44 +9,46 @@ const Blog = ({ data, pageContext }) => {
   const { numPages, currentPage } = pageContext
   return (
     <Layout>
-      <hr />
-      <div className="introduction">Recent Blog Posts:</div>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <article key={node.id}>
-          <Link to={node.frontmatter.path}>
-            <h3 className="postTitle">{node.frontmatter.title}</h3>
-          </Link>
-          <div>
-            <span className="postData">
-              {node.frontmatter.date} — {node.timeToRead} minute read
-            </span>
-            <p>{node.excerpt}</p>
-          </div>
-        </article>
-      ))}
-      {numPages === currentPage && (
-        <span>
-          Older blog posts can be found on&nbsp;
-          <a
-            href="https://medium.com/@sarahscode"
-            style={{ textDecoration: 'none' }}
-          >
-            Medium
-          </a>
-        </span>
-      )}
-      <nav className="postNav">
-        {currentPage > 1 ? (
-          <Link to={`/blog/${currentPage - 1}`}>Newer Posts</Link>
-        ) : (
-          <div />
+      <div className="allBlogs">
+        <hr />
+        <div className="introduction">Recent Blog Posts:</div>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <article key={node.id}>
+            <Link to={node.frontmatter.path}>
+              <h3 className="postTitle">{node.frontmatter.title}</h3>
+            </Link>
+            <div>
+              <span className="postData">
+                {node.frontmatter.date} — {node.timeToRead} minute read
+              </span>
+              <p>{node.excerpt}</p>
+            </div>
+          </article>
+        ))}
+        {numPages === currentPage && (
+          <span>
+            Older blog posts can be found on&nbsp;
+            <a
+              href="https://medium.com/@sarahscode"
+              style={{ textDecoration: 'none' }}
+            >
+              Medium
+            </a>
+          </span>
         )}
-        {currentPage < numPages ? (
-          <Link to={`/blog/${currentPage + 1}`}>Older Posts</Link>
-        ) : (
-          <div />
-        )}
-      </nav>
+        <nav className="postNav">
+          {currentPage > 1 ? (
+            <Link to={`/blog/${currentPage - 1}`}>Newer Posts</Link>
+          ) : (
+            <div />
+          )}
+          {currentPage < numPages ? (
+            <Link to={`/blog/${currentPage + 1}`}>Older Posts</Link>
+          ) : (
+            <div />
+          )}
+        </nav>
+      </div>
     </Layout>
   )
 }
