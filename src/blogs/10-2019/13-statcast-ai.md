@@ -23,8 +23,6 @@ This is just a basic overview of the technology that I was able to get through a
 
 One of the things I love about technology is how it can have an impact on so many things, big and little. There are some things about the game of baseball that (in my opinion, at least) should never change (don't tell Rob Manfred), but the use of technology and the addition of Statcast to how the came is analyzed and broadcast has enhanced my experience as a fan (while I think it is overused, exit velocity is an interesting statistic, and I'm glad it's something we can measure now - and that's just one of the many new pieces of information I hear during every game). I'm hoping that over the coming weeks, as the Yankees continue to work their way towards their 28th World Series Championship, I can continue to learn more about Statcast and how Major League Baseball leverages technology to continue to change and enhance the game experience.
 
-Go Yankees! #NextManUp
-
 **Major Resources Used In This Post**
 - [AWS Statcast Case Study](https://aws.amazon.com/statcastai/)
 - [MLBAM Case Study](https://aws.amazon.com/solutions/case-studies/major-league-baseball-mlbam/)
