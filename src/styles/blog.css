@@ -37,6 +37,10 @@
   margin-bottom: 1.5rem;
 }
 
+.postContent a {
+  text-decoration: underline;
+}
+
 p,
 li {
   font-size: 0.9rem;
