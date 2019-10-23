@@ -5,7 +5,10 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
-const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg }) => {
+const IndexPage = ({
+  data: { markdownRemark, allProjectsJson, file },
+  projImg,
+}) => {
   const blog = markdownRemark
   const project = allProjectsJson.edges[0].node
   return (
@@ -22,11 +25,9 @@ const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg })
               <p>
                 After graduating from a coding bootcamp in late 2017 as a full
                 stack engineer, I spent a year working on automated UI testing
-                in an agile scrum environment. I am currently looking to return
-                to my true love, writing code to create beautiful and
-                user-friendly experiences. I have experience with React and
-                Node, and am available for a full-time position in New York
-                City.
+                in an agile scrum environment. I am love writing code to create
+                beautiful and user-friendly experiences, and I am excited to be
+                using this passion in my work as a full stack engineer.
               </p>
               <p>
                 Prior to working as a software engineer, I worked in office
@@ -44,7 +45,10 @@ const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg })
           <h3>{project.name}</h3>
           <div className="blurbProject">
             <div className="lazyImage">
-              <Img fluid={projImg.node.fluid} alt={`${project.name} home screen`} />
+              <Img
+                fluid={projImg.node.fluid}
+                alt={`${project.name} home screen`}
+              />
             </div>
             <div>
               <p>{project.description}</p>
@@ -77,10 +81,10 @@ const IndexPage = ({ data: { markdownRemark, allProjectsJson, file }, projImg })
 }
 
 export default () => (
-   <StaticQuery 
-     query={graphql`
+  <StaticQuery
+    query={graphql`
       query {
-        markdownRemark(frontmatter: {draft: {eq: false}}) {
+        markdownRemark(frontmatter: { draft: { eq: false } }) {
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
@@ -88,10 +92,7 @@ export default () => (
           }
           rawMarkdownBody
         }
-        allProjectsJson(
-          sort: { fields: [sort], order: DESC }
-          limit: 1
-        ) {
+        allProjectsJson(sort: { fields: [sort], order: DESC }, limit: 1) {
           edges {
             node {
               name
@@ -124,8 +125,17 @@ export default () => (
         }
       }
     `}
-    render={(data) => (
-      <IndexPage data={data} projImg={data.allImageSharp.edges.filter(image => image.node.fluid.src.includes(data.allProjectsJson.edges[0].node.image))[0]} />
+    render={data => (
+      <IndexPage
+        data={data}
+        projImg={
+          data.allImageSharp.edges.filter(image =>
+            image.node.fluid.src.includes(
+              data.allProjectsJson.edges[0].node.image
+            )
+          )[0]
+        }
+      />
     )}
-   />
+  />
 )

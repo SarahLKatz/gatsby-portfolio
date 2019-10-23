@@ -18,16 +18,16 @@ const AboutPage = ({ data }) => (
         in on a few other small projects here and there). During this time, I
         gained experience with agile and scrum procedures, as well as experience
         working with a product team and collaborating on large shared
-        repositories on GitHub. Since that position ended in February 2019, I
-        have been looking to join a company where I can use my skills to build
-        great products and learn and grow with the company.
+        repositories on GitHub. I am currently working as a full stack engineer
+        at a healthtech company, using my coding skills and my passion for
+        helping others to constantly improve our product.
       </p>
       <p>
         My current technology stack includes HTML, CSS, Javascript, React,
         Redux, Node.js, Express, PostgreSQL, Gatsby, and some GraphQL knowledge.
         Additionally, I have experience with testing frameworks including Jest
-        and Jasmine, as well as UI testing with Selenium Webdriver. Other tools with
-        which I am experienced include GitHub, Slack, and JIRA.
+        and Jasmine, as well as UI testing with Selenium Webdriver. Other tools
+        with which I am experienced include GitHub, Slack, and JIRA.
       </p>
       <p>
         Prior to studying web development, I worked as a freelance graphic
@@ -44,7 +44,9 @@ const AboutPage = ({ data }) => (
         and visiting Disney theme parks.
       </p>
     </section>
-    <a href={data.file.publicURL} className="resumeLink">Downloadable Resume</a>
+    <a href={data.file.publicURL} className="resumeLink">
+      Downloadable Resume
+    </a>
   </Layout>
 )
 
