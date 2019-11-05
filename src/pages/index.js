@@ -27,7 +27,8 @@ const IndexPage = ({
                 stack engineer, I spent a year working on automated UI testing
                 in an agile scrum environment. I am love writing code to create
                 beautiful and user-friendly experiences, and I am excited to be
-                using this passion in my work as a full stack engineer.
+                using this passion in my work as a full stack engineer at a
+                healthtech company.
               </p>
               <p>
                 Prior to working as a software engineer, I worked in office
