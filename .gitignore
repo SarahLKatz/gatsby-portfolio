@@ -9,3 +9,4 @@ yarn-error.log
 
 # Unused blogs
 /src/blogs/12-2020
+*.icloud
