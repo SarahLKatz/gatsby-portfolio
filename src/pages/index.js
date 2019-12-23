@@ -87,6 +87,7 @@ export default () => (
               id
               excerpt(pruneLength: 750, format: PLAIN)
               frontmatter {
+                title
                 path
               }
             }
