@@ -6,10 +6,10 @@ import Layout from '../components/layout'
 import '../styles/indexPage.css'
 
 const IndexPage = ({
-  data: { markdownRemark, allProjectsJson, file },
+  data: { allMarkdownRemark, allProjectsJson, file },
   projImg,
 }) => {
-  const blog = markdownRemark
+  const blog = allMarkdownRemark.edges[0].node
   const project = allProjectsJson.edges[0].node
   return (
     <Layout>
@@ -66,11 +66,7 @@ const IndexPage = ({
           <h3 className="blurbTitle">{blog.frontmatter.title}</h3>
           <div className="inline">
             <p>
-              {blog.rawMarkdownBody
-                .split(' ')
-                .slice(0, 100)
-                .join(' ')}{' '}
-              ...{' '}
+              {blog.excerpt}
             </p>
             <Link to={blog.frontmatter.path}>Finish Reading</Link>
           </div>
@@ -85,13 +81,16 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        markdownRemark(frontmatter: { draft: { eq: false } }) {
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
+        allMarkdownRemark(filter: {frontmatter: {draft: {ne: true}}}, limit: 1, sort: {fields: frontmatter___date, order: DESC}) {
+          edges {
+            node {
+              id
+              excerpt(pruneLength: 750, format: PLAIN)
+              frontmatter {
+                path
+              }
+            }
           }
-          rawMarkdownBody
         }
         allProjectsJson(sort: { fields: [sort], order: DESC }, limit: 1) {
           edges {
