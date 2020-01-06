@@ -1,0 +1,32 @@
+---
+path: "/blogs/01-06-2020-career-goals"
+draft: false 
+title: "Planning 2020: My Career Goals For The Year"
+date: "2020-01-06"
+---
+
+In 2019, I didn't feel very focused on my overall career. Yes, I wanted to find a job where I would be doing work that I loved, but my focus was more on my next step than on how it fit into my career goals. Now that I'm in a good job at a company where I can see myself staying for a while, I want 2020 to be a year of working towards goals that can help me progress my career.
+
+My first step in figuring out how to advance my career in 2020 was to think about the things I wanted to do but did not achieve in 2019. I wanted a promotion (instead I got a "thanks but no thanks"). I wanted to become more involved in the general developer community. I wanted to branch out in my blogging and blog as a way to learn, not just a way to process my thoughts. I wanted to feel more comfortable sharing my voice and my opinions. While I made some progress on some of these goals, I didn't really achieve any of them, and thinking about the goals I didn't achieve in 2019 helped me figure out what I want to achieve in 2020.
+
+**Advance to Engineer 2**  
+My company has a defined engineering ladder, which was given to me during my first week at the job. Each level has its own goals and responsibilities, which are laid out in the document I was given. The level at which I was hired is Engineer 1 (E1), and it's expected that an E1 will advance to the next level, Engineer 2 (E2), within 18 months. I want to do it in 14. I've been very happy with the pace of my increasing responsibilities so far in this position, and I'm hoping that if this pace continues to be comfortable, I can be promoted to the E2 level by the end of 2020.
+
+I have a 1:1 with my manager coming up soon, and during this meeting, I plan to ask what I can do to work on this goal. I know that the bulk of my work will be focusing on and fulfilling the responsibilities of an E1, but I want to find out if there's something additional that I can do (if I feel comfortable balancing it with the rest of my work) to move to that next level more quickly.
+
+**Speak At A Meetup or Conference**  
+I'm still not entirely sure how it happened, but at some point last year, I started considering the idea of speaking publicly about my journey. I've enjoyed hearing others speak about their journey and their work, and I thought it might be interesting to share something of myself in front of others.  In fact, I almost gave a lightning talk at a meetup in December, but it ended up not working out. 
+
+I know that this will be incredibly hard for me, as I'm not at all good with public speaking, but I still think that my voice is worth sharing, and I want to share it in a new way, whether that's a lightning talk at a meetup, a talk at a conference, or something in between. I haven't decided yet if I'd rather speak about a tech-centric topic (such as something I've learned at work) or a human-centric topic (such as something from my job search), but that's probably a decision I'd make based on the context where I am applying to speak.
+
+**Feel Comfortable Sharing My Voice and Experience**  
+One of my goals when I started my new job was to look for pain points or areas for improvement in the onboarding process. While I have taken some time to write down some of my thoughts on the onboarding process, I don't yet feel comfortable sharing them with anyone from my team or my manager. I want to eventually get to a point in my career where I am working to improve the experience for my teammates, and being comfortable sharing my thoughts and experience to help improve the onboarding process can be a great first step in that direction.
+
+I also want to feel more comfortable sharing my voice in general. As the new person on the team (and someone who is fairly new to the industry in general), I sometimes feel like my voice and my opinions are not worth expressing. But being the new person on the team means that I'm not quite as entrenched in the way things are done as others, and adding my different perspective could lead to a significant change or improvement in our process, which is exactly why it is valuable for me to share my voice. I recently had the opportunity to do this in a meeting about improving our standup procedure, and I felt like my contributions were helpful and I'm glad I participated in the meeting. This year I want to become more comfortable with the idea of sharing my voice and find more opportunities to share my relevant opinions with my team.
+
+**Write About Technical Topics**  
+I love writing about my experiences in tech. Some of my experiences are unique to me, while others are experiences that many others have had, and I feel that there is value in sharing those experiences with the world. But I also know that I have more to share. I am constantly learning new things, and I want to feel comfortable sharing my new knowledge. I haven't figured out exactly how I am going to do it, but I want to start writing about more technical topics. Based on a recent conversation with a teammate, I want to start writing down the things I encounter at work that I don't understand, and when I learn more about these things, I plan to start blogging about them (likely on my [dev.to](https://dev.to/sarahscode) account). My initial goal is to write a technical blog post once a month, just to give myself a lot of time to become comfortable with a different style of writing, but I'd like to eventually get to a point where I can post a technical blog every other week.
+
+I don't know if I will reach all (or any) of these goals this year. I may set new goals in the middle of the year. If there's one thing I've learned, it's that I don't know where my year will bring me. But I do know that having these goals set gives me a place to start. It gives me something to work on in 2020. I plan to discuss some or all of these goals with my manager in our next 1:1, and I'm hoping that he can give me some guidance on how the company can support my goals.
+
+I don't know where my career will be at the end of 2020. But I do know that I want to work hard to get myself out there, share my voice and my thoughts (both technical and non-technical), and work as hard as I can to advance myself to the next level. With these goals in mind, I hope to make 2020 the start of bigger and better things in my career.
