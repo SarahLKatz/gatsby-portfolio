@@ -1,6 +1,6 @@
 ---
 path: "/blogs/01-13-2020-bad-day-recovery"
-draft: false 
+draft: true 
 title: "Acute Recovery From A Bad Day"
 date: "2020-01-13"
 ---
