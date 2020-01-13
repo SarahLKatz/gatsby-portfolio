@@ -1,7 +1,7 @@
 ---
 path: "/blogs/01-13-2020-continuing-good"
 draft: false 
-title: "New Job: Same Good Qualities"
+title: "New Job, Same Good Qualities"
 date: "2020-01-13"
 ---
 
