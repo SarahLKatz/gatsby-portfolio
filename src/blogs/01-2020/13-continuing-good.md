@@ -1,0 +1,22 @@
+---
+path: "/blogs/01-13-2020-continuing-good"
+draft: false 
+title: "New Job, Same Good Qualities"
+date: "2020-01-13"
+---
+
+Over the past few months, as I've started to adjust to my new job, I've also been thinking about how it compares to my previous job. During the job search, it became easy to focus on the bad things about my old job and the struggles I had with that job. But the truth is, there were some good things about that job, and I thought it would be interesting to look at those good things and see how many of them are also true of my current job.
+
+##### Amazing People
+One of the things I loved most about my last job was the great group of people I got to work with. [Everyone I interacted with at work was kind and supportive](https://medium.com/@sarahscode/kindness-in-the-workplace-2941811dc444), both in my work and in our non-work-related interactions. One of the hardest things about the end of my time at that job was leaving such an amazing group of people.  
+Thankfully, I've landed at a company that is filled with similarly fantastic people. From [helping me learn by working directly with me](12-23-2019-coding-with-others) to welcoming me when I choose to sit in the kitchen for lunch or join game night, my new teammates have made me feel comfortable and wanted at my job. I may still [struggle to ask for help](https://www.sarahlkatz.com/blogs/12-02-2019-learning-to-ask) and may not always want to join in group activities, but I know that my teammates are there for me on a work and a personal level, and that is definitely appreciated.
+
+##### Appreciation
+I don't really feel like I accomplished much at my last job. But I do know that the things I accomplished were appreciated. From an executive constantly talking about how important my project was to receiving a gift card as a thank you from my manager to a simple "good job" or "thanks for getting this done so quickly", I knew my team appreciated the work I was doing and the fact that I kept at it despite my frustrations.  
+I haven't had a chance to get a large amount of work done during my time at my new job (it's only been a few months), but I know that the work I have done has been appreciated. From deleting some unnecessary code to making small changes to ensure that a new feature is ready for launch, I've gotten thanks and kudos for much of the work I've done, and I definitely feel like I am appreciated. As the new person, it's easy to feel like my contributions don't matter, and the appreciation being shown to me by my team has made a huge difference in helping me feel like I am making the company's work better.
+
+##### Flexibility and Scheduling Understanding
+One of the great benefits of working in tech is that it's an industry where there tends to be a lot of flexibility in terms of scheduling. My last job certainly fell into this category. It didn't matter what time I showed up, as long as I made it in time for morning scrum, and if I showed up early, I was able to leave early. The company was also very understanding about my personal scheduling needs, whether that meant missing days for holidays, leaving early on Fridays, or having to miss time for last-minute personal issues that arose. One memorable moment was when I took a morning off to attend the funeral of a friend's mother; when I returned to work, the response I got from my scrum master was "you're a good friend" - nothing about me missing time or missing scrum.  
+At my new job, I've found similar flexibility with my schedule. I show up whenever I can and leave after my work is done. I haven't run into any problems having to leave early for any reason. I've been able to work remotely when I was sick or just not able to come into the office. All of my PTO requests have been approved. The scheduling at my new company seems very laid-back so far, and I'm confident that it will never be a problem for me to tweak my working schedule based on my life schedule.
+
+These are just three quick examples of good qualities from my last job that seem to have carried over into my new job. I know that as I continue to adjust to the new job, I'll encounter situations that remind me of my last job, and I'll remember that despite my struggles with the work, there were good things about that job. Thankfully, I've been able to find a new job that shares these good qualities (despite the two companies being very different), and I'm grateful to be able to continue to grow and discover new things that make me love my job.  
