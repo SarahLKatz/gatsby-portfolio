@@ -8,5 +8,5 @@ yarn-error.log
 .DS_Store
 
 # Unused blogs
-/src/blogs/12-2020
+/src/blogs/12-2022
 *.icloud
