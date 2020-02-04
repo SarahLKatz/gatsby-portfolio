@@ -1,0 +1,26 @@
+---
+path: "/blogs/02-03-2020-backend-adventure"
+draft: false 
+title: "A New Adventure: Popping Into the Back End"
+date: "2020-02-03"
+---
+
+While my official job title is "Full Stack Engineer," I almost entirely work on front-end development - and I'm happy with that. I love doing front-end work, and I was glad to learn during the interview process that this position focused on front end. But last week I had an opportunity to jump into our back-end code, and let me tell ya, it was an adventure. I was working with a language and some concepts with which I had never dealt before, and while I truly appreciated the learning opportunity, it was an adjustment.
+
+Here's the story:
+
+After being assigned an incredibly difficult ticket a few months ago that made me really doubt myself, I wasn't sure when I'd be ready to take on another challenging ticket that involved learning something new. At sprint planning, it was suggested that I take on a ticket that involved working in our backend codebase, which was entirely new to me. I thought I'd be terrified ... but I wasn't. I was a bit hesitant, but when my team lead offer to pair with me on the ticket, I agreed to work on it. I knew it wouldn't be easy, but I was ready to take on this new challenge.
+
+My first step in working on this ticket was getting set up. I downloaded the code by cloning the repository from GitHub, made sure I had my IDE all set up, and made sure I was able to get the app up and running. My team lead came over to work with me, and we discovered that there were some issues with my setup. There was a lot of troubleshooting going on - we tried installing new things, changing versions of things ... nothing seemed to work to get my IDE working properly (and we knew it was the IDE, because anything we ran from the command line was working just fine). Not even a day into working on this ticket, and I was already running into big problems. Eventually we grabbed one of our backend engineers, and he was able to figure out what was wrong and help with the setup issues. Finally, with the help of two people and a decent amount of stress, I got my IDE set up and I was ready to code.
+
+Once my IDE was all set up, we were ready to start coding. I was pair programming with my team lead, and he helped me figure out where I should be writing code and what I should be writing. Our backed codebase is written in Java, which I've seen but never written, and it took me some time to adjust to writing things in a new language. One of my biggest struggles was in writing variables - I kept using "const" instead of "final" and putting the variable name before the type (which is how it's done in Typescript). The IDE setup was great for figuring out what I could and couldn't do, but I still wasn't sure what to do and I was very glad to have my teammate helping me through the process.
+
+My teammate helped me get started, but left me to finish the ticket on my own (reminding me that I could ask him for help if I neeeded any). I managed to do okay with the feature work, but my work made some existing tests fail (because I was adding information that wasn't accounted for in the test). Working with the tests ... that was a challenge. The way our tests are written was a little different than how they're written in our frontend codebase, and for some reason, it took me a long time to wrap my head around how our tests work. In fact, I'd say that the figuring out the tests was the second hardest part of my work (the hardest part was setting up my IDE). Eventually, I figured it out, and I was able to get the tests working.
+
+Once I had the tests passing, all that was left was making sure that my code passed our codebase's quality gate. At first it didn't - I hadn't properly dealt with a possible null value, which introduced the potential for a bug. I spent a lot of time searching the internet for solutions and tried a lot of things, but ultimately it was a suggestion from one of my teammates (who I assume had encountered this same issue before) that helped me solve the problem and pass the quality gate.
+
+I submitted my PR, and after I made a few changes suggested by our team's backend engineer (all really good suggestions that I'm glad he called out), it was approved! My first adventure in the backend was over, but I knew it would not be my last. 
+
+Having the opportunity to work on a backend task was not only a learning experience in terms of the code I wrote, it was also a growth experience for my approach to my work. I've definitely been a bit hesitant to try new things and work with code and concepts with which I am not familiar, and I've definitely leaned on my team to guide me through the more difficult moments. As grateful as I am that my teammates are generally willing to help, I learned from this experience that I can do things on my own (even if I sometimes need guidance to get to the point where I can work alone). This experience has made me more confident in my ability to successfully try new things, and I am already less concerned about what my next big learning experience will be.
+
+Most of all, what I learned was that while it's nice to do something new once in a while, I love working on the front end, and I'm fortunate to be at a job where I can spend most of my days writing the code I love. 
