@@ -8,6 +8,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "acorn": "^7.1.1",
     "disqus-react": "^1.0.5",
     "gatsby": "^2.18.16",
     "gatsby-cli": "^2.7.42",
