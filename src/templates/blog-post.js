@@ -17,7 +17,7 @@ export default ({ data, pageContext }) => {
       <div className="blogPost">
         <hr />
         <article>
-          <h2 className="postTitle">{post.frontmatter.title}</h2>
+          <h1 className="postTitle">{post.frontmatter.title}</h1>
           <div className="postData">Posted: {post.frontmatter.date}</div>
           <div
             className="postContent"
