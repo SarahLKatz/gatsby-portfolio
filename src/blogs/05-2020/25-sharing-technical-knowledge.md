@@ -1,8 +1,8 @@
 ---
-path: "/blogs/05-26-2020-sharing-my-technical knowledge"
+path: "/blogs/05-25-2020-sharing-my-technical knowledge"
 draft: false 
 title: "Sharing My Technical Knowledge"
-date: "2020-05-26"
+date: "2020-05-25"
 ---
 
 One of my company's initiatives for the first half of 2020 is to increase our focus on documented goals for employees and the company. As part of this initiative, I set a goal for myself to share more of my technical knowledge, either by writing a technical blog post or by presenting on a technical topic at a team meeting. As a "beginner", it's hard to figure out the best way to feel comfortable sharing my knowledge when so many people know more than I do.
