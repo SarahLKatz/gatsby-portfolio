@@ -1,0 +1,16 @@
+---
+path: "/blogs/06-01-2020-frustration-communication"
+draft: false 
+title: "Communication and Shared Frustrations"
+date: "2020-06-01"
+---
+
+Remote work has been a struggle for me for a variety of reasons, including the fact that I'm not fully adjusted to remote communications. I do feel like I have been able to communicate well with my team about some things - I've had no problems talking about what I'm working on or pair programming with my fellow engineers - but I do feel like I struggle to communicate when things are not going well (which, to be honest, is something I struggle with in-person as well, but I do feel that it has gotten worse since I switched to remote work). One of the things that I've struggled to share is how frustrated I've been feeling, both about the work assigned to me and about some ambiguity surrounding what work my team is responsible for.
+
+I have shared some of this with my manager, and she understands my frustration and has done her best to help. But my team is set up in a way that everyone has different managers (it's something new the company is trying) and my manager isn't heavily involved in my team's day-to-day work, so it can be hard for me to fully encapsulate the scope of my frustration in our weekly 1:1s. I knew that this was an issue that would need to be resolved within my team, but I wasn't comfortable starting that conversation.
+
+Last week, a question arose that touched on that frustrating ambiguity in my team's responsibilities. Some of the engineers on my team decided to hop on a video call to chat about it. Over the course of the conversation, I realized that I wasn't the only one frustrated by this ambiguity. We discussed a few possible ideas and solutions, and while we didn't settle on anything, I started to really understand that my teammates also weren't happy with the situation. One of my fellow engineers mentioned that he was working on a possible solution to remove some of the ambiguity, and that he would post a PR once he finished his work so that we could all look over it and decide if we want to start with that solution.
+
+While we didn't resolve any issues in this particular call, I did feel like we made some progress towards lessening those frustrations. But more than that, I learned that I wasn't the only person who was frustrated, and that made me feel better about my frustration. It's difficult to struggle alone with a frustrating situation. But knowing that I wasn't alone in my frustrations helped me feel that my frustration was valid and made it a little easier to manage.
+
+Communication is hard. It's hard when you're sitting in the same room as someone, and it can be harder when you're working from miles apart. But finding ways to communicate is also the best way to deal with all the little things that contribute to the stress of a work day. Whether that's discussing a comment someone made that didn't resonate with you or sharing your frustrations at certain situations, it is only through communication that we can make our work better. That's a lesson I've learned a lot over the last few months, and it is a lesson I will continue to learn as I work to improve my remote communication skills.
