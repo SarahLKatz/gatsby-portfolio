@@ -1,0 +1,22 @@
+---
+path: "/blogs/06-15-2020-presentation-prep"
+draft: false 
+title: "Presenting To My Team"
+date: "2020-06-15"
+---
+
+One of my goals to help advance my career is to become more comfortable with public speaking. As part of my work in our last sprint, I was tasked with doing research on a particular new technology we were adopting and presenting the results of that research to my team. While I wasn't thrilled about the topic, I was looking forward to practicing my public speaking skills and sharing my research. 
+
+I did my research early in the sprint, and then moved on to other tasks, figuring that I would present the results of my research before our next sprint grooming (which happens towards the end of the sprint) so that the team could better understand how this topic would affect work in upcoming sprints. A few days before the end of the sprint, my team tech lead reached out to me to see when I planned to present to the team. After consulting with the team, I set up a time for the following morning. And then all that was left was preparing for the presentation.
+
+For the rest of that afternoon, I worked on the technical parts of the presentation. I wanted to have a good example of the new technology in use, and I spent a lot of time finding the best way to execute it. What I didn't do was spend time preparing what I was going to say or in what order I was going to present things. I didn't even do a basic runthrough of the presentation, so I had no idea if it would fit into the 20 minutes I had allotted myself.
+
+The morning of the presentation, I planned to write out quick notes about everything I wanted to mention in my presentation. But as I was getting ready for work, I realized that I wanted to try one more quick technical thing before I started on my preparation. And so I spent half of the hour I had allotted myself to prepare on a futile attempt to make one last technical thing work (I still haven't figured out what I missed there, but thankfully someone else later got it up and running).
+
+Going into the presentation, I felt nervous. Because I only have one screen (my laptop screen, no external monitor) and I was sharing my screen, I knew that I wouldn't be able to see my teammates as I was presenting, so I felt like I was speaking into nothingness, and I do think my presentation would have benefited seeing the reaction from my audience. I ended up rambling for 45 minutes, and while I believe my teammates appreciated the presentation and it seemed like it was received well, I didn't feel like I had given a great presentation.
+
+Reflecting on this experience, there are a number of things I would have done differently. I knew I was going to be making this presentation even before it had been scheduled, so I should have started preparing earlier. I also should have done a dry run of the presentation before scheduling, so that I knew how long to schedule it for. And once I had scheduled the presentation, I should have stopped working on technical details (most of which were already done) and instead focused on making sure I had properly planned out the presentation. If I still had time after preparing and practicing the presentation, that would have been the time to go back and work on technical details.
+
+I did learn one very positive lesson from this experience. I've always struggled to speak about technical topics, but despite my nerves and the fact that I know I could have prepared better, this presentation was a great reminder that I have the knowledge necessary to speak about technical topics. In fact, I'm considering possibly giving a similar presentation to a larger group of teammates, as there are more people on the team who I know would be interested in this information.
+
+I've always struggled with public speaking. I've also always struggled with my ability to speak on technical topics. Combining the two often seems like an insurmountable obstacle. The presentation I gave to my team may not have been perfect, and I know I can do better, but it served as a good reminder that sometimes the things that we think are impossible are really not, and it's important to go out there and try new things, even if they are scary. For me, speaking on technical topics still feels scary, but I know that the more I continue to do it, the less scary it will feel over time.
