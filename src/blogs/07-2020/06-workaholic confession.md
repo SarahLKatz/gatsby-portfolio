@@ -1,0 +1,28 @@
+---
+path: "/blogs/07-06-2020-workaholic-confession"
+draft: false 
+title: "Confessions of A Workaholic: My Long Short Week"
+date: "2020-07-06"
+---
+
+11pm. That's approximately what time I closed my work computer last Wednesday night. It was the third night in a row that my work computer was in use after dinner. It was also the night I realized that my work habits that particular week had become a problem.
+
+It started off innocently enough. I was contemplating giving a presentation at our team meeting on Wednesday, so my manager and I planned for me to rehearse it in our meeting on Tuesday. And so, on Monday night, I spent some time preparing and rehearsing my presentation. Not too bad, right? An hour or two of working one night isn't ideal, but it's also not the worst thing I could do.
+
+Tuesday came, and I went over my presentation with my manager. She said it was good and we put me on the schedule to present at the meeting the following day. I wanted to rehearse my presentation a few more times, but I was also working on a ticket that I wanted to finish by the end of the week (which was Thursday because Friday was a company holiday), so I decided to spend some time after dinner rehearsing.
+
+I decided to eat dinner in my "office" (aka bedroom) on Tuesday night so that I could set up my computer for the practice presentation as early as possible (with the idea being that the earlier I started, the earlier I'd finish). I was done setting up before I was done eating dinner, so I decided to do some work on a ticket while I finished my dinner. And once I was already working on that ticket, I decided to continue to work on it for a little bit longer. Eventually I switched over to practicing my presentation, and I spent about an hour going recording myself giving the presentation, then watching that recording and evaluating where I needed to make changes before finally closing the work computer.
+
+Wednesday was the day I was presenting to my team. I had planned to get a bit of work done before rehearsing my presentation again, but I got into a good groove with my work and ended up not rehearsing the presentation again. I wasn't worried, because I had already rehearsed it several times and I knew I was ready. The presentation went well, and while I think I could have done a little better had I practiced one more time, I do believe that I made the right decision in not forcing myself to find time for an extra rehearsal.
+
+The presentation may have been over, but my work for the week was not. I was pretty close to finishing the ticket I was working on, and I was hoping to get it merged in before the end of the work week, so I decided to spend some time after work on Wednesday finishing up that ticket so that I could put up a PR first thing Thursday morning. But as I was finishing up some refactors (and breaking all of our tests in the process), I realized that I wanted to change a few more things. A few hours later, I sent a group text to my friends that read "It's 11pm, someone make me stop working."
+
+I was still working at 11pm. And I could have continued working. That was a problem, and I knew it. The whole week had been a problem. I had spent more of my nights working than not working. That's not okay. I knew that working from home would make work-life balance a lot harder for me, but I think this week was the worst it has been. Working three nights in a row is not okay. Working until 11pm is not okay. I can't let this happen again.
+
+When I woke up Thursday morning, I knew I had to take it easy. It was a short week (Friday July 3rd was a company holiday), but if I kept up my habits from the rest of the week, I'd still be working a 40 hour week, which was not okay. I acknowledged to myself that my ticket would not be finished by the end of the week, and convinced myself to be okay with it. I told myself that I would "leave" work after my 1pm meeting ended if I was happy with where I was in my work. And so I went into the last day of the week determined not to make the mistakes I had made earlier in the week.
+
+I ended up working a full day on Thursday. But it was a fairly pressure-free day. I kept going because I fet like I was making progress, not because I was trying to hit an arbitrary deadline. I was able to finish the ticket I was working on at around 5:30 PM, and then the work computer got turned off - with no plans to turn it back on before Monday morning. After a few days of working at night, putting the computer away for 3 days was a great feeling.
+
+While the week ended on a good note, this was not a week that I care to repeat. I'm glad I was able to successfully give a presentation to my team. I'm glad I was able to complete the work on my ticket. I'm not glad that I spent three nights in a row working.
+
+Going forward, I need to make a conscious effort to not let myself get so absorbed in my work that I'm working nights. One thing that I can easily do is plan all presentations at least two weeks in advance so that I can take on a lighter work load to give myself time to work on the presentation during work hours. I don't mind doing a little work at night once in a while, but I need to make sure that it doesn't happen regularly, which means setting a hard deadline for when the work computer get put away (and stays put away). I'm not exactly sure how I'm going to prevent another week like this from happenening (although being able to leave my work computer in the office would be nice ... if only I was working from the office), but I do know that by acknowledging that this should not have happened I'm taking a step in the right direction.
