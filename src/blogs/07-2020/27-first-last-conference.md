@@ -1,0 +1,20 @@
+---
+path: "/blogs/08-03-2020-first-last-conference"
+draft: false 
+title: "Why My First Tech Conference Was (For Now) My Last"
+date: "2020-08-03"
+---
+
+In July 2019, I attended my first tech conference, Codeland [(more on that experience here)](07-29-2019-first-conf-recap). That was also the last conference I attended. I considered attending this year's event (which would have been particularly easy, as it was fully virtual), or even just watching a few talks here and there (they were all livestreamed), but ultimately decided that my time was better spent focusing on my work.
+
+"But Sarah," you might say, "you love learning new things, and tech conferences are a great way to learn." And you would be right about both of those statements. But everyone has a different learning style and reflecting on last year's experience, and some experiences I've had since then, I realized that I don't learn as much from talks as I do from some other methods of learning. While I can learn from talks if I'm taking good notes and taking the time to reread and process those notes, I find that I either don't take enough notes on conference talks or I never look back at those notes, so I'm not really absorbing the information.
+
+So if I don't learn from talks (and as I mentioned in [last week's blog](07-20-2020-no-personal-projects), I don't do personal projects), then how do I learn?
+
+Lately, I've been learning a lot by watching video courses and taking notes and then further reinforcing my knowledge by writing up those notes in a new way or sharing them as a blog post. For example, I recently finished an online video course on web security and important programming concerns related to web security. I really enjoyed that course (and took a lot of notes), and I'm planning to convert those notes into a series of blog posts (stay tuned for more - I'm hoping to start posting them within the next month or so). I find it easier to learn from videos than from live talks because I can pause the video to write notes, go back a bit if I want to make sure I heard something correctly, or rewatch something to help me understand it better.
+
+I also find that sometimes I learn by having someone walk me through existing code. I try to read through code on my own, but I don't always fully understand it, so it helps to go through it with someone who has a better understanding of the code. For example, my company uses Jenkins as part of our deployment process, and I want to learn more about Jenkins, so in addition to reading through the documentation, I plan to ask one of my teammates to walk me through the Jenkinsfiles in some of our projects to help me understand the code and what each part contributes to our build and deploy process.
+
+"Okay, I understand, this isn't how you learn. But Sarah," you may continue, "you've said many times that you want to be more comfortable with networking outside your comfort zone and conferences are a great place to do that." That's another good point, and going into the conference last year I was really looking forward to making new friends and maybe meeting some twitter friends in real life. But then I ended up not feeling comfortable speaking to new people, and spent most of my time with someone I already knew. And if I'm not comfortable doing it when I'm sitting in a room with someone and the options are speak to them or sit alone, I doubt I'd start socializing in a situation where I have other distractions. So while I do agree that eventually conferences could be a great way for me to meet new people and network, I don't think I'm quite comfortable with that yet. 
+
+While I'm glad I decided to attend Codeland last year, I think my decision to sit it out this year was correct as well. While conferences can be a great place to learn and to network, I don't think they fit with where I am in my journey. In the future, I'd like to start attending conferences and presenting at conferences, but for the foreseeable future, I plan to focus on my job and excelling at my work.
