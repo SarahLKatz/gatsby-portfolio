@@ -1,8 +1,8 @@
 ---
-path: "/blogs/08-03-2020-first-last-conference"
+path: "/blogs/07-27-2020-first-last-conference"
 draft: false 
 title: "Why My First Tech Conference Was (For Now) My Last"
-date: "2020-08-03"
+date: "2020-07-27"
 ---
 
 In July 2019, I attended my first tech conference, Codeland [(more on that experience here)](07-29-2019-first-conf-recap). That was also the last conference I attended. I considered attending this year's event (which would have been particularly easy, as it was fully virtual), or even just watching a few talks here and there (they were all livestreamed), but ultimately decided that my time was better spent focusing on my work.
