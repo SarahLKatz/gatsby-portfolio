@@ -1,5 +1,5 @@
 ---
-path: "/blogs/05-25-2020-sharing-my-technical knowledge"
+path: "/blogs/05-25-2020-sharing-my-technical-knowledge"
 draft: false 
 title: "Sharing My Technical Knowledge"
 date: "2020-05-25"
