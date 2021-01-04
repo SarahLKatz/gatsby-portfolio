@@ -1,0 +1,27 @@
+---
+path: "/blogs/01-04-2021-constant-improvement"
+draft: false 
+title: '"Resolving" to Improve'
+date: "2021-01-04"
+---
+
+It's that time of year. Early January. When everyone starts setting their resolutions ... most of which will we broken within a few months (or less). This year I've decided to to set any resolutions or even any strong goals. I want to set a path for myself for the year, and the theme for that path is **improvement**. I want to constantly be on a path of improvement and to always look for ways to be a better person, a better engineer, and an overall better me.
+
+One of the great things about choosing improvement as my focus for the year is that there will always be room to grow. I will never know everything I need to know and I will always have room to improve myself and my work, so there's no pressure to reach a certain level, but I also know that if I do exceed my own expectations, that's not the end of my quest for improvement. To start off the year, I've identified a few areas where I want to start my path to improvement, with the hope that I can continue to improve in these areas throughout the year and be comfortable with the growth I have seen at the end of the year.
+
+**Keep Learning**  
+I work in an industry where the technologies we use and the best practices surrounding them are constantly evolving, which is why it's important for me to keep learning. One topic I'm learning about right now is [React Server Components](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html), a new way of writing components that is being introduced into React (the javascript framework we use at work). I'm not learning about server components because I think they're something I can implement right now, but because I want to see if this is potentially where the future of writing web applications will go. I'm also hoping that seeing these new patterns and understanding why they were developed and the problems they solve will help me identify possible pitfalls in my application and will encourage me to think of new way to solve these problems. 
+
+I'm not sure what's next for me on my learning journey (React Server Components are relatively new so I'm guessing there won't be that much learning material for me to dive into right now), but I know that there will always be new things for me to learn. Whether it's learning more about something I do at work or learning about something outside of work, I know that there will always be room for me to learn and improve my knowledge base.
+
+**Be A Little More Patient Every Day**  
+Oftentimes my struggles at work have very little to do with the work I'm doing and a lot more to do with how I respond when things aren't as I expect them to be. I've always been a perfectionist, and while I'm proud of the fact that I'm dedicated to doing things well, the downside of that is that I'm not great at responding to anything less than perfection. So one of my main focus areas for this year is learning to deal with imperfection without becoming frustrated. I want to practice patience, both with myself and with others. I want to remind myself that it's okay if things aren't right the first time. It's okay if my teammates see things differently than I do. It's okay if I have to wait for feedback.
+
+The more I internalize the concept of patient and focus on improving my patience, the easier it will be for me to get through my day without feeling frustrated and stuck. I spend a lot more time than I should frustrated with my work, and sometimes that frustration can make it harder for me to ask for the help I need to become unstuck. I know that practicing patience and learning to respond without frustration will help me differentiate between the times when things just aren't working and the times when I could benefit from asking a teammate for help, and becoming more familiar with that distinction will help me complete my work in a more efficient manner.
+
+**Keep Exploring**.  
+Over the past year, I've had a lot of opportunities to take on new responsibilities and learn new things. This has led me to discover some new potential areas of focus for my future career (and some areas where I definitely don't want to focus) and has helped me start to find my niche within the company. I want to continue to explore within my role - take on new responsibilities, learn new things, and discover more tasks that I do (and don't) love to do. 
+
+One of the great things about being open to exploration is that I don't know what opportunities I'll have to explore new things. I do know that there are some areas of my job that I'd like to learn more about, including how our app goes gets deployed to the various environments. But mostly I'm just looking to take on tickets that involve work I've never done before and to discover what opportunities there are for me to find new areas of interest.
+
+It's hard to know what 2021 will look like. 2020 showed me that the world may throw some crazy curveballs at me, but I can adjust (at least to some degree) and even somewhat thrive. In 2021 I want to build on my growth from last year and continue to look for areas where I can improve and find new ways to be a better teammate, a better developer, and an overall better person.
