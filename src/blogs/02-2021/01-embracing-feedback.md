@@ -5,9 +5,7 @@ title: "Embracing Feedback"
 date: "2021-02-01"
 ---
 
-** INTRO
-- company emphasis on feedback 
-- why that matters to me
+For many companies (including mine), feedback is an essential part of building a good company culture. Building a feedback culture means encouraging all employees to give feedback to their peers, their managers, and their reports. Regular feedback helps identify areas of improvement (both on an individual level and on a company-wide level) and can also reinforce existing positive company culture and encourage employees to continue iterating on and enforcing positive aspects of the company's culture and work. Part of building a good feedback culture is ensuring that all employees are invested in building the culture and in giving and receiving productive feedback. My company has a focus on building and maintaining a strong feedback culture, which means that I as an individual at the company need to understand the importance of giving and receiving feedback.
 
 My first introduction to my company's focus on feedback came in my second week at the job, during our all-company onsite event. We had a feedback workshop as one of our sessions, and while I remember appreciating that session when it happened, I also don't remember anything that was discussed in that presentation. While I don't remember what I was supposed to be learning about feedback (in my defense, having an all-company onsite the week after my onboarding made everything extra overwhelming), I did walk away understanding that my company was working to foster a positive and productive feedback culture.
 
@@ -17,8 +15,4 @@ Some of my professional learning over the last year or so has been based around 
 
 Watching that first course has already given me an idea for how to better embrace feedback. I know that to truly grow from receiving feedback (and to grow into someone who can give productive feedback), I need to absorb feedback that is given to me and understand how to use it to improve my work. I am planning to create a "feedback notebook", where I write down the feedback that I receive from my co-workers. For each piece of feedback, I want to first determine if I see it as positive or negative feedback. For positive feedback, I want to include a note about how it made me feel, which gives me something to look back on when I'm struggling to see my contributions to the company. For negative feedback, I want to write down what I can learn from that feedback and what steps I can take to ensure that I don't receive the same feedback again.
 
-I know that making feedback a regular part of my work routine will have positive long-term impacts on my work and my career growth. Learning to better absorb feedback and understanding what I can learn from each piece of feedback can help me grow into a better developer and a better collaborator.
-
-** CONCLUSION
-- Need to be able to absorb feedback and use it to help me grow
-- Build a feedback culture to help the company improve overall (and also to help ensure that I'm getting the most effective feedback by building a culture around better feedback)
+I know that making feedback a regular part of my work routine will have positive long-term impacts on my work and my career growth. Learning to better absorb feedback and understanding what I can learn from each piece of feedback can help me grow into a better developer and a better collaborator. I also want to be part of building a good feedback culture at my company, both to ensure that I'm getting the most effective feedback and to ensure that the company is able to grow and my coworkers are able to flourish and be at their best. I know that to be part of this great feedback culture I need to learn more about giving and receiving feedback, and I'm excited to work on that over the coming months.
