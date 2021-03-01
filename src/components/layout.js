@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../components/header'
-import Nav from '../components/nav'
 import Social from '../components/social'
 
 import '../styles/default.css'
@@ -45,7 +44,6 @@ const Layout = ({ children }) => (
         <header className="header">
           <Header siteTitle={data.site.siteMetadata.title} />
           <div className="navSocial">
-            <Nav menuLinks={data.site.siteMetadata.menuLinks} />
             <Social />
            </div>
         </header>

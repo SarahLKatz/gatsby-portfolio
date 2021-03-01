@@ -11,7 +11,6 @@ const Blog = ({ data, pageContext }) => {
     <Layout>
       <div className="allBlogs">
         <hr />
-        <div className="introduction">Recent Blog Posts:</div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <article key={node.id}>
             <Link to={node.frontmatter.path}>
