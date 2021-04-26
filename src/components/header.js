@@ -5,7 +5,7 @@ import '../styles/layout.css'
 
 const Header = ({ siteTitle }) => (
   <div className="titleContent">
-    <Link key="home" to="/">{name}<h1 className="title">
+    <Link key="home" to="/"><h1 className="title">
       {siteTitle}
     </h1></Link>
     <div className="subtitle">
