@@ -78,7 +78,8 @@ import '../styles/indexPage.css'
 //   )
 // }
 
-export default () => (
+
+const PageQuery = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -111,3 +112,5 @@ export default () => (
     )}
   />
 )
+
+export default PageQuery;
