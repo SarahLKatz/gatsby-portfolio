@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Img from 'gatsby-image'
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
@@ -21,14 +21,12 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
             <div className="project" key={node.id}>
               <h2 className="projectName">{node.name}</h2>
               <div className="projectVisual">
-                <Img
-                  fluid={
-                    images.filter(image =>
-                      image.node.fluid.src.includes(node.image)
-                    )[0].node.fluid
-                  }
-                  alt=""
-                />
+                
+                <GatsbyImage
+                  image={images.find(image =>
+                    image.node.gatsbyImageData.images.fallback.src.includes(node.image)
+                  ).node.gatsbyImageData}
+                  alt="" />
                 <div className="projectLinks">
                   {node.github && (
                     <a
@@ -67,7 +65,7 @@ const Projects = ({ data: { allProjectsJson, allImageSharp } }) => {
         </div>
       </div>
     </Layout>
-  )
+  );
 }
 
 export default Projects
@@ -97,9 +95,7 @@ export const query = graphql`
     allImageSharp {
       edges {
         node {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData
         }
       }
     }
