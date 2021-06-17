@@ -5,7 +5,7 @@ import { DiscussionEmbed } from 'disqus-react'
 import Layout from '../components/layout'
 import '../styles/blog.css'
 
-export default ({ data, pageContext }) => {
+const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const disqusShortname = 'sarahlkatz'
   const disqusConfig = {
@@ -54,3 +54,5 @@ export const query = graphql`
     }
   }
 `
+
+export default BlogPost
