@@ -1,3 +1,4 @@
+---
 path: "/blogs/07-06-2021-first-two-weeks"
 draft: false
 title: "My First Two Weeks: A Chronicle of Two Weeks at My New Job"

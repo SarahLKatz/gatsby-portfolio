@@ -66,7 +66,7 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach(({ node }, idx) => {
       createRedirect({
         fromPath: `/b/${node.frontmatter.date}`,
-        toPath: `${node.frontmatter.path}`,
+        toPath: node.frontmatter.path,
         isPermanent: true,
         redirectInBrowser: true
       })
