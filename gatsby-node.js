@@ -51,24 +51,24 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-    createRedirect({ 
+    createRedirect({
       fromPath: `/blog`,
       toPath: `/`,
       isPermanent: true,
-      redirectInBrowser: true 
+      redirectInBrowser: true
     })
-    createRedirect({ 
+    createRedirect({
       fromPath: `/blog/1`,
       toPath: `/`,
       isPermanent: true,
-      redirectInBrowser: true 
+      redirectInBrowser: true
     })
     posts.forEach(({ node }, idx) => {
-      createRedirect({ 
+      createRedirect({
         fromPath: `/b/${node.frontmatter.date}`,
         toPath: node.frontmatter.path,
         isPermanent: true,
-        redirectInBrowser: true 
+        redirectInBrowser: true
       })
       const prevPath = (idx > 0) ? posts[idx-1].node.frontmatter.path : ''
       const nextPath = (idx < posts.length-1) ? posts[idx+1].node.frontmatter.path : ''
@@ -86,4 +86,3 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 }
-
